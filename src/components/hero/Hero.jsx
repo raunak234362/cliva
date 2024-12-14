@@ -123,7 +123,7 @@ export default function Hero() {
               </div>
             </div>
           </div>
-          <div className="z-50 md:pt-0 pt-10 md:translate-x-52 p-[4px] md:translate-y-48 md:absolute text-[10px] md:text-[15px] font-primaryRegular">
+          <div className="z-50 md:pt-0 pt-10 md:translate-x-52 md:translate-y-48 md:absolute ">
            <Cliva/>
           </div>
         </div>
