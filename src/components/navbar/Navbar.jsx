@@ -10,7 +10,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-light_blue text-sm font-primaryRegular">
+    <nav className="bg-[#8AC9FF] text-sm font-primaryRegular">
       <div className="max-w-screen-xl mx-auto flex items-center justify-between p-4">
         {/* Logo */}
         <div className="">
@@ -42,7 +42,7 @@ const Navbar = () => {
 
         {/* Navigation Links */}
         <div
-          className={`absolute md:relative z-50 md:p-0 p-3 bg-light_blue w-full md:w-auto top-16 md:top-auto left-0 md:left-auto gap-10 transition-all duration-300 md:flex md:items-center ${
+          className={`absolute md:relative z-50 md:p-0 p-3 bg-[#5CBBFF] w-full md:w-auto top-16 md:top-auto left-0 md:left-auto gap-10 transition-all duration-300 md:flex md:items-center ${
             isMenuOpen ? "block" : "hidden"
           }`}
         >
@@ -124,6 +124,9 @@ const Navbar = () => {
           </div>
         </div>
         {/* Buy Now Button */}
+      </div>
+      <div className="bg-">
+
       </div>
     </nav>
   );

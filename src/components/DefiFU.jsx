@@ -1,4 +1,4 @@
-import React from "react";
+
 import frame from "../assets/Frame27.png"; // Replace with your butterfly image path
 import queen from "../assets/background-4.png"; // Replace with your Join Cliva image path
 
@@ -14,10 +14,11 @@ export default function DefiFU() {
             </p>
 
         </div>
-        {/* <div>
+        <div>
           <img src={queen} alt="voting" className="object-right w-full z--10 h-6/6" />
-        </div> */}
+        </div>
     </div>
 
   );
 }
+ 

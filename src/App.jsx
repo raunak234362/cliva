@@ -8,7 +8,7 @@ const Layout = () => {
       <header>
         <Navbar />
       </header>
-      <main className="w-screenflex-grow">
+      <main className="">
         <Outlet />
       </main>
     </div>
