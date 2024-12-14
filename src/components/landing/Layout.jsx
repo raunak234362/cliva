@@ -1,4 +1,5 @@
 import { Decentralized, Hero, VoteToEarn } from "../index";
+import Wingoarena from '../wingoarena/Wingoarena';
 
 const Layout = () => {
   return (
@@ -6,6 +7,7 @@ const Layout = () => {
       <Hero />
       <VoteToEarn />
       <Decentralized/>
+      <Wingoarena/>
     </div>
   );
 };
