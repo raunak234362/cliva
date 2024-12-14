@@ -10,6 +10,7 @@ export default {
       light_blue: '#8AC9FF',
       normal: '#5CBBFF',
       skin: '#FFD28A',
+      blue: '#228EFD'
 
     },
     extend: {
