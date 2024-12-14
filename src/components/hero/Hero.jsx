@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import ButterflyImg from "../../assets/rb_21.png";
 import JoinClivaImg from "../../assets/Frame44.png";
 import Cloud from "../../assets/cloud1.png";
@@ -75,65 +76,65 @@ export default function Hero() {
             </div>
           </div>
           <div className="flex z-0">
-            <div className="absolute translate-y-28">
-              <div className="font-primaryRegular absolute translate-y-20 translate-x-7 text-[10px] text-[#14589D]">
-                VOTE FOR <br/> DECISION-MAKING
-              </div>
-              <div>
-                <img src={VoteCloud1} alt="Join Cliva" className=" w-72" />
-              </div>
+            <div
+              className="absolute translate-y-28"
+              style={{
+                backgroundImage: `url(${VoteCloud1})`,
+              }}
+            >
+              {/* <div className="font-primaryRegular translate-y-20 translate-x-7 text-[10px] text-[#14589D]">
+                VOTE FOR <br /> DECISION-MAKING
+              </div> */}
             </div>
-            <div className="absolute  translate-y-16 translate-x-52">
-            <div className="font-primaryRegular text-center absolute translate-y-16 translate-x-12 text-[10px]" style={{
-                color: "#fff",
-                borderRadius: "10px",
-                textShadow:
-                  "2px 2px 5px #228EFD, -2px -2px 5px #228EFD, 2px -2px 5px #228EFD, -2px 2px 5px #228EFD",
-              }}>
-                UNITE GLOBALLY <br/> WITH NO-BARRIERS
+
+            {/* <div className="absolute  translate-y-16 translate-x-52">
+              <div
+                className="font-primaryRegular text-center absolute translate-y-16 translate-x-12 text-[10px]"
+                style={{
+                  color: "#fff",
+                  borderRadius: "10px",
+                  textShadow:
+                    "2px 2px 5px #228EFD, -2px -2px 5px #228EFD, 2px -2px 5px #228EFD, -2px 2px 5px #228EFD",
+                }}
+              >
+                UNITE GLOBALLY <br /> WITH NO-BARRIERS
               </div>
               <div>
-                <img
-                  src={VoteCloud2}
-                  alt="Join Cliva"
-                  className=" w-64"
-                />
+                <img src={VoteCloud2} alt="Join Cliva" className=" w-64" />
               </div>
             </div>
             <div className="absolute  translate-y-44 translate-x-96">
-            <div className="font-primaryRegular text-center absolute translate-y-16 translate-x-12 text-[10px]" style={{
-                color: "#fff",
-                borderRadius: "10px",
-                textShadow:
-                  "2px 2px 5px #228EFD, -2px -2px 5px #228EFD, 2px -2px 5px #228EFD, -2px 2px 5px #228EFD",
-              }}>
-                THE POWER IS IN <br/> YOUR HAND
+              <div
+                className="font-primaryRegular text-center absolute translate-y-16 translate-x-12 text-[10px]"
+                style={{
+                  color: "#fff",
+                  borderRadius: "10px",
+                  textShadow:
+                    "2px 2px 5px #228EFD, -2px -2px 5px #228EFD, 2px -2px 5px #228EFD, -2px 2px 5px #228EFD",
+                }}
+              >
+                THE POWER IS IN <br /> YOUR HAND
               </div>
               <div>
-                <img
-                  src={VoteCloud3}
-                  alt="Join Cliva"
-                  className=" w-56"
-                />
+                <img src={VoteCloud3} alt="Join Cliva" className=" w-56" />
               </div>
             </div>
             <div className="absolute  translate-y-56 translate-x-44">
-            <div className="font-primaryRegular text-center absolute translate-y-16 translate-x-20 text-[10px]" style={{
-                color: "#fff",
-                borderRadius: "10px",
-                textShadow:
-                  "2px 2px 5px #228EFD, -2px -2px 5px #228EFD, 2px -2px 5px #228EFD, -2px 2px 5px #228EFD",
-              }}>
-               AND MORE...
+              <div
+                className="font-primaryRegular text-center absolute translate-y-16 translate-x-20 text-[10px]"
+                style={{
+                  color: "#fff",
+                  borderRadius: "10px",
+                  textShadow:
+                    "2px 2px 5px #228EFD, -2px -2px 5px #228EFD, 2px -2px 5px #228EFD, -2px 2px 5px #228EFD",
+                }}
+              >
+                AND MORE...
               </div>
               <div>
-                <img
-                  src={VoteCloud4}
-                  alt="Join Cliva"
-                  className=" w-60"
-                />
+                <img src={VoteCloud4} alt="Join Cliva" className=" w-60" />
               </div>
-            </div>
+            </div> */}
             {/*
             <div>
               <img
