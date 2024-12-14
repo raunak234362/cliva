@@ -1,10 +1,11 @@
-import {Hero, VoteToEarn} from '../index'
+import { Decentralized, Hero, VoteToEarn } from "../index";
 
 const Layout = () => {
   return (
-    <div className="w-screen flex flex-col overflow-hidden">
-      <Hero/>
-      <VoteToEarn/>
+    <div className="w-[100vw] flex flex-col overflow-hidden gap-0">
+      <Hero />
+      <VoteToEarn />
+      <Decentralized/>
     </div>
   );
 };

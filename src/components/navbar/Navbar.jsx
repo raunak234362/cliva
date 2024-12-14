@@ -10,7 +10,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-light_blue text-sm font-primaryRegular">
+    <nav className="bg-[#8AC9FF] text-sm font-primaryRegular">
       <div className="max-w-screen-xl mx-auto flex items-center justify-between p-4">
         {/* Logo */}
         <div className="">
@@ -124,6 +124,9 @@ const Navbar = () => {
           </div>
         </div>
         {/* Buy Now Button */}
+      </div>
+      <div className="bg-">
+
       </div>
     </nav>
   );
