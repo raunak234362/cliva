@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "SpaceComics_tt";
+  src: local("SpaceComics"), url("../src/font/SpaceComics_tt.ttf") format("truetype");
+}
+
+/* /* @font-face {
+  font-family: "SpaceComics_ff";
+  src: local("SpaceComics") url("../src/font/SpaceComics_ff.woff") format("woff");
+} */
+
+@font-face {
+  font-family: "ComicNeue-Regular";
+  src: local("ComicNeue-Regular"), url("../src/font/ComicNeue-Bold.ttf");
+}
