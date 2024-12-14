@@ -4,7 +4,7 @@ import ButterflyCastle from "../../assets/butterfly_castle_03.png";
 import Logo from "../../assets/logo_wingo.png";
 const Wingoarena = () => {
   return (
-    <div className="bg-skin h-full w-[100vw] relative">
+    <div className="bg-[#FFD28A] h-full w-[100vw] relative">
       {/* Logo positioned at the top-right corner */}
       <div className="absolute top-10 right-0">
         <img src={Logo} alt="Road" className="w-[70%] pt-20" />
@@ -18,8 +18,8 @@ const Wingoarena = () => {
       <p>revolutionary spirit that </p>
       <p>sparked blockchain & Web3 </p>
       <p> adoption.</p>
-
       </div>
+      
       {/* Butterfly Castle Image */}
       <div>
         <img src={ButterflyCastle} alt="" className="w-full" />
