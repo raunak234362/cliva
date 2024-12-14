@@ -1,6 +1,7 @@
 import BuVoting from "../../assets/rb_214.png"; // Replace with your butterfly image path
 import clivavotinf from "../../assets/IMG_4442.png"; // Replace with your Join Cliva image path
 import cloud2 from "../../assets/cloud2.png";
+import Cliva from "../cliva/Cliva";
 
 const VoteToEarn = () => {
   return (
@@ -26,18 +27,8 @@ const VoteToEarn = () => {
               sparked blockchain & Web3 <br /> adoption.
             </p>
           </div>
-          <div className="z-50 p-[4px] text-[10px] md:text-[15px] font-primaryRegular">
-            <div
-              className="bg-[#FFA1C6] border-[#EE0A73] border-4 px-5 py-3 rounded-3xl"
-              style={{
-                color: "#fff",
-                borderRadius: "10px",
-                textShadow:
-                  "2px 2px 5px #228EFD, -2px -2px 5px #228EFD, 2px -2px 5px #228EFD, -2px 2px 5px #228EFD",
-              }}
-            >
-              JOIN $CLIVA
-            </div>
+          <div className="z-50">
+           <Cliva/>
           </div>
         </div>
         <div className="z-50">

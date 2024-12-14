@@ -2,7 +2,7 @@ const Cliva = () => {
   return (
     <div className="w-fit cursor-pointer">
       <div
-        className="bg-[#FFA1C6] border-[#EE0A73] text-[10px] md:text-[15px  p-[4px] font-primaryRegular border-4 px-5 py-3 rounded-3xl"
+        className="bg-[#FFA1C6] border-[#EE0A73] text-[10px] md:text-[15px]  p-[4px] font-primaryRegular border-4 px-5 py-3 rounded-3xl"
         style={{
           color: "#fff",
           borderRadius: "10px",
