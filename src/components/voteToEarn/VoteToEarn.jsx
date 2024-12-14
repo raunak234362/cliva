@@ -27,7 +27,7 @@ const VoteToEarn = () => {
               sparked blockchain & Web3 <br /> adoption.
             </p>
           </div>
-          <div className="z-50 p-[4px] text-[10px] md:text-[15px] font-primaryRegular">
+          <div className="z-50">
            <Cliva/>
           </div>
         </div>

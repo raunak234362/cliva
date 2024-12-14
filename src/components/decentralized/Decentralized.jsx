@@ -17,7 +17,6 @@ const Decentralized = () => {
       >
       </div>
       <div>
-
       </div>
     </div>
   );
