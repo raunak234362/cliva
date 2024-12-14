@@ -2,6 +2,7 @@ import React from "react";
 import Road from "../../assets/road.png";
 import ButterflyCastle from "../../assets/butterfly_castle_03.png";
 import Logo from "../../assets/logo_wingo.png";
+import Cliva from "../cliva/Cliva";
 const Wingoarena = () => {
   return (
     <div className="bg-[#FFD28A] h-full w-[100vw] relative">
@@ -19,7 +20,10 @@ const Wingoarena = () => {
       <p>sparked blockchain & Web3 </p>
       <p> adoption.</p>
       </div>
-      
+
+      <div>
+        <Cliva/>
+      </div>
       {/* Butterfly Castle Image */}
       <div>
         <img src={ButterflyCastle} alt="" className="w-full" />
