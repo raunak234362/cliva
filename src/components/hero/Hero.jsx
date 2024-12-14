@@ -67,7 +67,7 @@ export default function Hero() {
       </div>
 
       {/* Image and Button Section */}
-      <div className="flex flex-col-reverse gap-5 z-50 md:flex-row md:justify-between">
+      <div className="flex py-5 flex-col-reverse gap-5 z-50 md:flex-row md:justify-between">
         <div className="flex flex-col-reverse md:flex-col md:justify-normal justify-center items-center md:items-start z-10">
           <div>
             <div

@@ -4,9 +4,9 @@ import cloud2 from "../../assets/cloud2.png";
 
 const VoteToEarn = () => {
   return (
-    <div className="flex justify-center font-primaryRegular md:pt-0 pt-20  bg-[#5CBBFF] h-[100vh]">
+    <div className="flex justify-center font-primaryRegular md:pt-0 pt-2  bg-[#5CBBFF] h-[100vh]">
       <div className="flex md:flex-row flex-col">
-        <div className="z-50 flex justify-center items-center flex-col gap-10 ">
+        <div className="z-50 flex md:pt-0 pt-16 justify-center items-center flex-col gap-10 ">
           <div
             className="col-span-2 text-[#228EFD] md:text-3xl"
             style={{
@@ -57,7 +57,7 @@ const VoteToEarn = () => {
           </div>
         </div>
       </div>
-      <div className="absolute md:translate-y-24 -translate-y-10 z-0 w-screen">
+      <div className="absolute md:translate-y-24 -translate-y-6 z-0">
         <img src={cloud2} alt="" className="" />
       </div>
     </div>
