@@ -129,8 +129,8 @@ export default function Hero() {
           </div>
         </div>
         <div className="block md:hidden">
-          <img src={Cloud} alt="" />
-          <img src={Cloud2} alt="" />
+          <img src={Cloud} alt="Cloud1" />
+          <img src={Cloud2} alt="Cloud2" />
         </div>
         <div className="md:pr-24 px-5 pb-6 z-50">
           <img
