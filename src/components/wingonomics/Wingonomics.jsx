@@ -2,7 +2,8 @@
 
 const Wingonomics = () => {
   return (
-    <div className="bg-[#4BB149] h-screen">
+    <div className="bg-[#4BB149] pt-10 h-screen">
+         
          < div
         className="font-primaryRegular flex flex-col justify-center text-2xl md:text-2xl md:tracking-[8px] px-10 z-10 gap-5"
         style={{
