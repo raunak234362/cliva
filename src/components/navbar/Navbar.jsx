@@ -21,7 +21,7 @@ const Navbar = () => {
         <div className="md:hidden">
           <button
             onClick={toggleMenu}
-            className="text-black focus:outline-none"
+            className="text-[#EE0A73] focus:outline-none"
           >
             <svg
               className="h-8 w-8"
@@ -42,7 +42,7 @@ const Navbar = () => {
 
         {/* Navigation Links */}
         <div
-          className={`absolute md:relative z-50 md:p-0 p-3 w-full md:w-auto top-16 md:top-auto left-0 md:left-auto gap-10 transition-all duration-300 md:flex md:items-center ${
+          className={`absolute md:relative bg-[#8AC9FF] z-50 md:p-0 p-3 w-full md:w-auto top-20 md:top-auto left-0 md:left-auto gap-10 transition-all duration-300 md:flex md:items-center ${
             isMenuOpen ? "block" : "hidden"
           }`}
         >
@@ -116,7 +116,7 @@ const Navbar = () => {
                 marginTop: "-10px",
                 border: "2px solid #EE0A73",
                 borderRadius: "10px",
-                textShadow: "2px 2px #ffffff",
+                textShadow: "2px 2px #EE0A73",
               }}
             >
               BUY NOW
