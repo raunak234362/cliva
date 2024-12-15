@@ -5,7 +5,7 @@ import Cliva from "../cliva/Cliva";
 
 const VoteToEarn = () => {
   return (
-    <div className="flex justify-center font-primaryRegular md:pt-0 pt-2  bg-[#5CBBFF] h-[100vh]">
+    <div className="flex justify-center font-primaryRegular md:pt-0 pt-2  bg-[#5CBBFF] h-[120vh] md:h-[100vh]">
       <div className="flex md:flex-row flex-col">
         <div className="z-50 flex md:pt-0 pt-16 justify-center items-center flex-col gap-10 ">
           <div
