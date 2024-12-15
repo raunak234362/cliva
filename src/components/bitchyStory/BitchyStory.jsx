@@ -7,25 +7,32 @@ import RedShape from "../../assets/redShape.png"
 import Logo from "../../assets/logo_wingo.png";
 import BitchyInsect from "../../assets/bitchyInsect.png"
 import Cliva from '../cliva/Cliva'
+import BitchyBgMobile from "../../assets/bitchy_mobile.png"
+import BlueShapeMd from "../../assets/blueShape_md.png"
+import YellowShapeMd from "../../assets/yellowShape_md.png"
+import RedShapeMd from "../../assets/redShape_md.png"
+import BitchyGrass from "../../assets/bitchy_grass.png"
 
 const BitchyStory = () => {
   return (
     <div className=' relative bg-[#39C6CB]'>
+        {/*website view */}
         <div>
     <img src={Bottom} alt="" />
         </div>
 
-        <div className="text-[#EBE235] text-3xl font-primaryRegular text-center text-[1rem] font-bold mt-2 bg-[#39C6CB] p-5 pb-10" 
+        <div className="text-[#EBE235] font-primaryRegular text-center md:text-3xl text-[1rem] font-bold mt-2 bg-[#39C6CB] p-5 pb-10" 
       style={{ 
         textShadow: "4px 4px 18px rgba(255, 255, 255, 0.6)",  // White glow
         WebkitTextStroke: "1px #F39734"  // White outline outside text
       }}>
         THE BITCHY STORY
     </div>
-    <div className="bg-img">
+  
+        <div className='hidden md:block'>
+        <div className="bg-img">
         <img src={BitchyBg} alt="" />
     </div>
-
     <div className="absolute top-0 right-0" >
         <img src={Logo} alt="" className=' w-[60%]' style={{marginTop: "30%", }}/>
     </div>
@@ -74,6 +81,73 @@ const BitchyStory = () => {
             <p>Reshape, Cliva smiled.</p>
         </div>
         </div>
+      </div>
+      </div>
+
+      {/*mobile view */}
+      <div className="block md:hidden relative">
+      <div>
+        <img src={BitchyBgMobile} alt="" />
+      </div>
+
+      <div className=' absolute top-0 z-10' style={{marginTop:"40%", marginLeft:"55%"}}>
+        <img src={BitchyInsect} alt="" className=' w-[90%]'/>
+      </div>
+
+      <div className=' absolute top-0 '>
+        <img src={BlueShapeMd} alt="" />
+        <div className=" absolute top-4 text-white  font-secondRegular" style={{lineHeight:'2', marginLeft:"4%"}}>
+        <p className=' font-primaryRegular ' style={{WebkitTextStroke: "1px #228EFD"}}>SHE WAS A DELICATE AND INNOCENT BUTTERFLY  </p>
+      </div>
+      <div className=" absolute top-0 text-white font-secondRegular text-sm capitalize"  style={{marginTop:"24%", marginLeft:"4%"}}> 
+            <p>...Until she flew deeper into the Forest. </p>
+            <p>shattered by the view of Disparity,</p>
+            <p>   Exclusion, Greed, and Corruption. So on.</p>
+            <p>Selfishness Reigned, and Flowers </p>
+            <p>Drooped from the Weight of</p>
+            <p> Indifference. </p>
+            </div>   
+      </div>
+
+      <div className=' absolute top-0 ' style={{marginTop:"70%"}}>
+        <img src={YellowShapeMd} alt=""/>
+        <div className=" absolute top-0 right-0  font-secondRegular text-right text-sm"  style={{marginTop:"12%", marginRight:"4%",  }}> 
+        <div className=' font-primaryRegular text-white' style={{WebkitTextStroke: "1px #228EFD", lineHeight:"2"}} >
+        <p >NO LONGER SHE WILL BE A   </p>
+        <p >PASSIVE OBSERVER </p>
+        </div>
+        
+        <div className='text-[#FF0A0A]  pt-4 capitalize' style={{lineHeight:"2"}} >
+            <p>Cliva has to become bitchy Cliva to guide the promised </p>
+            <p>gains to the world from decentralisation tech. True </p>
+            <p>change could come without a system, without a </p>
+            <p>structure where all voices could be heard. So, Cliva set</p>
+            <p> to work to build a network, a governance, one where </p>
+            <p>the  suffering, the poor, and the innocent would have a </p>
+            <p>place. Where no one would be ignored. Where greed </p>
+            <p>would be replaced by generosity where cruelty would </p>
+            <p>give way to compassion</p>
+        </div>
+       </div>
+      </div>
+
+      <div>
+        <img src={RedShapeMd} alt="" />
+        <div className=" absolute bottom-0 text-white  font-secondRegular text-center" style={{marginBottom:"100%"}} >
+        <p className=' font-primaryRegular ' style={{WebkitTextStroke: "1px #228EFD", lineHeight:"2"}}>NEW ARENA IS AT THE FRONTIER  </p>
+        <div className=' text-center pt-4 '>
+            <p>As she gazed over the land she had planned to </p>
+            <p>Reshape, Cliva smiled.</p>
+        </div>
+        </div>
+      </div>
+
+      <div className='relative '>
+        <img src={BitchyGrass} alt="" className=' h-[20%]'/>
+      <div className='absolute bottom-0 inset-0 flex items-center justify-center'>
+        <Cliva className="w-[100%]"/>
+      </div>
+      </div>
       </div>
     </div>
   )
