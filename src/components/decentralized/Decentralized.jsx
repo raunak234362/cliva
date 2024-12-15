@@ -92,13 +92,13 @@ const Decentralized = () => {
         </div>
       </div>
       <div>
-        <div className="absolute w-full pt-16 md:pt-24 z-20">
+        <div className="absolute w-full pt-24 md:pt-24 z-20">
           <div className="flex justify-center items-center z-50">
             <Cliva />
           </div>
         </div>
         <div className="md:hidden block w-full justify-center items-center">
-          <img src={ButterFly} alt="" className="z-20 absolute w-96 pt-[25%]" />
+          <img src={ButterFly} alt="" className="z-20 absolute w-96 pt-[40vh]" />
 
           <img
             src={BackgroundImg2}

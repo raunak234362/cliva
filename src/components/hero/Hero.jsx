@@ -3,16 +3,19 @@ import ButterflyImg from "../../assets/rb_21.png";
 import JoinClivaImg from "../../assets/Frame44.png";
 import Cloud from "../../assets/cloud1.png";
 import Cloud2 from "../../assets/cloud2.png";
-
+import block1 from "../../assets/Group 10.png";
 import VoteCloud1 from "../../assets/Votecloud1.png";
 import VoteCloud2 from "../../assets/Votecloud2.png";
 import VoteCloud3 from "../../assets/Votecloud3.png";
 import VoteCloud4 from "../../assets/Votecloud4.png";
 import Cliva from "../cliva/Cliva";
+import box from "../../assets/Rectangle 8.png";
+import XImg from "../../assets/Vector.png";
+import Telegram from "../../assets/telegram-alt_svgrepo.com.png";
 
 export default function Hero() {
   return (
-    <div className="bg-[#5CBBFF] h-fit md:h-[120vh] w-[100vw]">
+    <div className="bg-[#5CBBFF] h-fit md:h-[90%] w-[100vw]">
       <div>
         <img
           src={ButterflyImg}
@@ -134,10 +137,23 @@ export default function Hero() {
         </div>
         <div className="md:pr-24 px-5 pb-6 z-50">
           <img
-            src={JoinClivaImg}
+            src={block1}
             alt="Voting"
             className="object-right-bottom w-full"
           />
+          <div className="md:pt-10 pt-8 md:pl-20 pl-12">
+            <div>
+              <img src={box} alt="" />
+            </div>
+            <div className="pl-16 absolute -translate-y-20 flex items-center gap-8">
+              <a href="">
+                <img src={XImg} alt="" className="h-12" />
+              </a>
+              <a href="">
+                <img src={Telegram} alt="" className="h-16" />
+              </a>
+            </div>
+          </div>
         </div>
         <div className="absolute translate-y-60 hidden md:block">
           <img src={Cloud} alt="Cloud" />

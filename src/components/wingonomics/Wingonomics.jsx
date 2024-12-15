@@ -26,8 +26,8 @@ const Wingonomics = () => {
           >
             <div>WINGONOMICS</div>
           </div>
-          <div className="flex flex-col-reverse gap-10 md:grid md:grid-cols-2 pt-[5%] px-10">
-            <div className="flex flex-col gap-10">
+          <div className="flex flex-col-reverse gap-10 md:grid md:grid-cols-2 pt-[5%] px-10 h-fit">
+            <div className="flex flex-col gap-10 h-fit">
               <div className="flex flex-col gap-10">
                 <h1
                   className="font-bold tracking-widest font-primaryRegular"
@@ -85,7 +85,7 @@ const Wingonomics = () => {
                 <img src={butterfly} alt="" />
               </div>
             </div>
-            <div className="md:-translate-y-64">
+            <div className="md:-mt-60">
               <div>
                 <img src={PieCha} alt="" className="md:block hidden" />
                 <img src={PieChart} alt="" className="md:hidden block" />
