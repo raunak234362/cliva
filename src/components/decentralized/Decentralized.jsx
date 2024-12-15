@@ -3,12 +3,12 @@ import BackgroundImg from "../../assets/Group 1.png";
 import lowerhead from "../../assets/2664 5.png";
 import BoxBack from "../../assets/Frame 27.png";
 import BoxBack2 from "../../assets/Group 9.png";
-import BackgroundImg2 from '../../assets/2664.png'
+import BackgroundImg2 from "../../assets/2664.png";
+import ButterFly from "../../assets/IMG_4440.png";
 import Cliva from "../cliva/Cliva";
 import { useState } from "react";
 import { useEffect } from "react";
 const Decentralized = () => {
-
   const [mobileView, setMobileView] = useState(false);
 
   const isMobileView = () => {
@@ -39,7 +39,9 @@ const Decentralized = () => {
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
           backgroundPosition: "center",
-          backgroundImage: `url(${mobileView ? BackgroundImg2 : BackgroundImg})`,
+          backgroundImage: `url(${
+            mobileView ? BackgroundImg2 : BackgroundImg
+          })`,
         }}
       >
         {/* <style>{`
@@ -64,37 +66,47 @@ const Decentralized = () => {
             <br className="hidden md:block" /> HAS ARRIVED!!
           </div>
           <div className="flex md:-translate-x-[450px] gap-3 py-10 z-20">
-            <div className="absolute md:text-[25px] text-lg font-secondRegular text-white text-left pl-7 pr-5 pt-5 md:pt-10">
+            <div className="absolute md:text-2xl text-base font-secondRegular text-white text-left px-12 pt-5 md:pt-10">
               Close your eyes. Wait, if you close it. how will you read it then?
             </div>
-            <div className="absolute text-white font-secondRegular text-left md:text-[20px] text-lg pt-24 md:pt-44 md:pr-20 pr-10 pl-7">
+            <div className="absolute text-white font-secondRegular text-left md:text-2xl text-base pt-[32%] md:pt-48 px-10">
               OK now- Imagine a world, where the major decisions about the token
               you hold dear aren’t dictated by close knit insiders, but they
               come from the community.
             </div>
-            <div className="absolute text-white font-secondRegular text-left md:text-[20px] text-lg pt-60 md:pt-[370px] pr-[55px] md:pr-28 pl-7">
-              Moving further, now get a flashback on why web3.0 was adopted
-              mainstream. You know, believers were keen to solve the problems of
-              inequality, poverty, hunger, disempowerment and so on. Wingoarena
-              encompasses the platform where people from all walks of life, all
-              geographies-be it Burundi or be in Sweden, everyone will have the
-              opportunities to excel ,<br/> to realise their potential.
+            <div className="absolute text-white font-secondRegular text-left md:text-2xl text-base pt-[72%] md:pt-[400px] px-10">
+              Moving further, now get a <br /> flashback on why web3.0 was{" "}
+              <br /> adopted mainstream. You know, <br /> believers were keen to
+              solve the <br /> problems of inequality, poverty,
+              <br /> hunger, disempowerment and so on.
+              <br /> Wingoarena encompasses the
+              <br /> platform where people from all
+              <br /> walks of life, all geographies-be it
+              <br /> Burundi or be in Sweden, everyone
+              <br /> will have the opportunities to excel ,<br /> to realise
+              their potential.
             </div>
             <img src={BoxBack} alt="" className="w-[550px] md:block hidden" />
             <img src={BoxBack2} alt="" className="w-[550px] md:hidden block" />
           </div>
         </div>
       </div>
-      <div className="md:hidden block">
-        <img src={BackgroundImg} alt="" />
-      </div>
       <div>
-        <div className="absolute w-full pt-24 z-20">
+        <div className="absolute w-full pt-16 md:pt-24 z-20">
           <div className="flex justify-center items-center z-50">
             <Cliva />
           </div>
         </div>
-        <img src={lowerhead} alt="" />
+        <div className="md:hidden block w-full justify-center items-center">
+          <img src={ButterFly} alt="" className="z-20 absolute w-96 pt-[25%]" />
+
+          <img
+            src={BackgroundImg2}
+            alt=""
+            className=" object-cover h-[90vh] z-0"
+          />
+        </div>
+        <img src={lowerhead} alt="" className="relative" />
       </div>
     </div>
   );
