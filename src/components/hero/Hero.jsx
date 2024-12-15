@@ -71,19 +71,6 @@ export default function Hero() {
         <div className="flex flex-col-reverse md:flex-col md:justify-normal justify-center items-center md:items-start z-10">
           <div>
             <div
-              className="md:absolute md:translate-y-28 md:h-44 h-36 w-64 text-center"
-              style={{
-                backgroundImage: `url(${VoteCloud1})`,
-                backgroundSize: "contain",
-                backgroundRepeat: "no-repeat",
-                backgroundPosition: "center",
-              }}
-            >
-              <div className="font-primaryRegular absolute translate-y-20 translate-x-7 text-[10px] text-[#14589D]">
-                VOTE FOR <br /> DECISION-MAKING
-              </div>
-            </div>
-            <div
               className="md:absolute md:translate-y-16 md:translate-x-52 md:h-44 h-32 w-64"
               style={{
                 backgroundImage: `url(${VoteCloud2})`,
@@ -92,10 +79,24 @@ export default function Hero() {
                 backgroundPosition: "center",
               }}
             >
-              <div className="font-primaryRegular  md:translate-y-20 md:translate-x-7 text-[10px] text-[#14589D]">
+              <div className="font-primaryRegular tracking-widest md:translate-y-20 translate-y-12 text-center md:text-[8px] text-[8px] text-[#fff]">
                 UNITE GLOBALLY <br /> WITH NO-BARRIERS
               </div>
             </div>
+            <div
+              className="md:absolute md:translate-y-28 md:h-44 h-36 w-64 text-center"
+              style={{
+                backgroundImage: `url(${VoteCloud1})`,
+                backgroundSize: "contain",
+                backgroundRepeat: "no-repeat",
+                backgroundPosition: "center",
+              }}
+            >
+              <div className="font-primaryRegular md:translate-y-20 translate-y-16 md:-translate-x-5 text-[10px] text-[#14589D]">
+                VOTE FOR <br /> DECISION-MAKING
+              </div>
+            </div>
+
             <div
               className="md:absolute  md:translate-y-44 md:translate-x-96 md:h-44 h-32 w-64"
               style={{
@@ -105,7 +106,7 @@ export default function Hero() {
                 backgroundPosition: "center",
               }}
             >
-              <div className="font-primaryRegular absolute translate-y-20 translate-x-7 text-[10px] text-[#14589D]">
+              <div className="font-primaryRegular absolute md:translate-y-20 translate-y-16 text-center translate-x-12 md:translate-x-7 text-[10px] text-[#fff]">
                 THE POWER IS IN <br /> YOUR HAND
               </div>
             </div>
@@ -118,14 +119,18 @@ export default function Hero() {
                 backgroundPosition: "center",
               }}
             >
-              <div className="font-primaryRegular absolute translate-y-20 translate-x-7 text-[10px] text-[#14589D]">
+              <div className="font-primaryRegular md:translate-y-20 translate-y-16 translate-x-16 md:translate-x-16 text-[10px] text-[#14589D]">
                 AND MORE...
               </div>
             </div>
           </div>
           <div className="z-50 md:pt-0 pt-10 md:translate-x-52 md:translate-y-48 md:absolute ">
-           <Cliva/>
+            <Cliva />
           </div>
+        </div>
+        <div className="block md:hidden">
+          <img src={Cloud} alt="" />
+          <img src={Cloud2} alt="" />
         </div>
         <div className="md:pr-24 px-5 pb-6 z-50">
           <img
