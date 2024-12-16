@@ -5,7 +5,7 @@ import { Decentralized, Hero, VoteToEarn, Wingonomics, Wingoarena } from "../ind
 
 const Layout = () => {
   return (
-    <div className="w-[100vw] flex flex-col overflow-hidden gap-0">
+    <div className="w-[100vw] flex flex-col overflow-x-hidden gap-0">
       <Hero />
       <VoteToEarn />
       <Decentralized/>

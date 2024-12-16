@@ -48,7 +48,7 @@ const VoteToEarn = () => {
           </div>
         </div>
       </div>
-      <div className="absolute md:translate-y-24 -translate-y-6 z-0">
+      <div className="absolute -translate-y-6 z-0">
         <img src={cloud2} alt="" className="" />
       </div>
     </div>

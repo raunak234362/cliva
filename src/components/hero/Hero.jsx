@@ -30,7 +30,7 @@ export default function Hero() {
         <div className="z-10 flex flex-col py-20 items-center justify-center">
           {/* Heading Text */}
           <div
-            className="flex flex-col justify-center items-center text-center text-sm md:text-4xl tracking-[2px] md:tracking-[8px] z-10 gap-5"
+            className="flex flex-col justify-center items-center text-center text-[10px] md:text-[12px] lg:text-[15px] xl:text-[20px] tracking-[2px] md:tracking-[8px] z-10 gap-5"
             style={{
               color: "#228EFD",
               borderRadius: "10px",
@@ -53,7 +53,7 @@ export default function Hero() {
           </div>
 
           {/* Supporting Text */}
-          <div className="mt-10 text-[#fff] md:text-[25px] text-sm text-center justify-center items-center flex flex-col gap-3 z-20">
+          <div className="mt-10 text-[#fff] md:text-[15px] lg:text-[20px] text-sm text-center justify-center items-center flex flex-col gap-3 z-20">
             <p className="tracking-wide font-secondRegular">
               <span className="font-primaryRegular text-[12px] md:text-2xl">
                 EMPOWERING
@@ -70,7 +70,7 @@ export default function Hero() {
       </div>
 
       {/* Image and Button Section */}
-      <div className="flex py-5 flex-col-reverse gap-5 z-50 md:flex-row md:justify-between">
+      <div className="flex flex-col-reverse gap-5 z-50 md:flex-row md:justify-between">
         <div className="flex flex-col-reverse md:flex-col md:justify-normal justify-center items-center md:items-start z-10">
           <div>
             <div
@@ -135,27 +135,27 @@ export default function Hero() {
           <img src={Cloud} alt="Cloud1" />
           <img src={Cloud2} alt="Cloud2" />
         </div>
-        <div className="md:pr-24 px-5 pb-6 z-50">
+        <div className=" flex flex-col justify-center items-center lg:pr-24 px-5 pb-6 z-50">
           <img
             src={block1}
             alt="Voting"
-            className="object-right-bottom w-full"
+            className="w-[full] md:h-[40vh] lg:h-[40vh] object-contain"
           />
-          <div className="md:pt-10 pt-8 md:pl-20 pl-12">
-            <div>
-              <img src={box} alt="" />
+          <div className="lg:pt-10 pt-8 ">
+            <div className="">
+              <img src={box} alt="" className="w-[full] md:h-[8vh] lg:h-[8vh] object-contain"/>
             </div>
-            <div className="pl-16 absolute -translate-y-20 flex items-center gap-8">
+            <div className="lg:pl-12 md:pl-5 absolute md:-translate-y-12 lg:-translate-y-16 flex items-center gap-8">
               <a href="">
-                <img src={XImg} alt="" className="h-12" />
+                <img src={XImg} alt="" className="xl:h-10 lg:h-10 md:h-[30px]" />
               </a>
               <a href="">
-                <img src={Telegram} alt="" className="h-16" />
+                <img src={Telegram} alt="" className="xl:h-12  md:h-[40px]" />
               </a>
             </div>
           </div>
         </div>
-        <div className="absolute translate-y-60 hidden md:block">
+        <div className="absolute md:translate-y-72 hidden md:block">
           <img src={Cloud} alt="Cloud" />
         </div>
       </div>

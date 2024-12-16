@@ -10,10 +10,10 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-[#8AC9FF] text-sm font-primaryRegular">
-      <div className="max-w-screen-xl mx-auto flex items-center justify-between p-4">
+    <nav className="bg-[#8AC9FF] text-sm font-primaryRegular shadow-md top-0 z-50 overflow-x-hidden">
+      <div className="max-w-screen-xl mx-auto flex items-center justify-between px-4 py-3 md:px-6 lg:px-8">
         {/* Logo */}
-        <div className="">
+        <div>
           <img className="h-auto w-16" src={frame17} alt="Logo" />
         </div>
 
@@ -22,6 +22,7 @@ const Navbar = () => {
           <button
             onClick={toggleMenu}
             className="text-[#EE0A73] focus:outline-none"
+            aria-label="Toggle navigation menu"
           >
             <svg
               className="h-8 w-8"
@@ -42,80 +43,37 @@ const Navbar = () => {
 
         {/* Navigation Links */}
         <div
-          className={`absolute md:relative bg-[#8AC9FF] z-50 md:p-0 p-3 w-full md:w-auto top-20 md:top-auto left-0 md:left-auto gap-10 transition-all duration-300 md:flex md:items-center ${
+          className={`absolute md:relative bg-[#8AC9FF] z-50 w-full md:w-auto left-0 top-16 md:top-auto md:left-auto md:flex items-center md:space-x-6 transition-all duration-300 ${
             isMenuOpen ? "block" : "hidden"
           }`}
         >
-          <div>
-            <ul
-              className="flex flex-col text-[10px] md:text-[13px] md:flex-row md:space-x-7 tracking-wide p-4 md:p-0"
-              style={{
-                color: "#fff",
-                borderRadius: "10px",
-                textShadow: "2px 2px 2px #228EFD",
-              }}
-            >
-              <li>
+          <ul className="flex flex-col md:flex-row text-center md:space-x-6">
+            {[
+              "HOW TO BUY",
+              "ROADMAP",
+              "WHITEPAPER",
+              "STAKING",
+              "FAQ",
+              "BITCY STORY",
+            ].map((link, index) => (
+              <li key={index} className="py-2 md:py-0">
                 <NavLink
                   to="/"
-                  className="block py-2 md:py-0 hover:text-[#EE0A73] transition-colors duration-200"
+                  className="block text-[12px] md:text-[6px] lg:text-[10px] xl:text-[14px] text-white hover:text-[#EE0A73] transition-colors duration-200 tracking-wide"
+                  style={{
+                    textShadow: "2px 2px 2px #228EFD",
+                  }}
                 >
-                  HOW TO BUY
+                  {link}
                 </NavLink>
               </li>
-              <li>
-                <NavLink
-                  to="/"
-                  className="block py-2 md:py-0 hover:text-[#EE0A73] transition-colors duration-200"
-                >
-                  ROADMAP
-                </NavLink>
-              </li>
-              <li>
-                <NavLink
-                  to="/"
-                  className="block py-2 md:py-0 hover:text-[#EE0A73] transition-colors duration-200"
-                >
-                  WHITEPAPER
-                </NavLink>
-              </li>
-              <li>
-                <NavLink
-                  to="/"
-                  className="block py-2 md:py-0 hover:text-[#EE0A73] transition-colors duration-200"
-                >
-                  STAKING
-                </NavLink>
-              </li>
-              <li>
-                <NavLink
-                  to="/"
-                  className="block py-2 md:py-0 hover:text-[#EE0A73] transition-colors duration-200"
-                >
-                  FAQ
-                </NavLink>
-              </li>
-              <li>
-                <NavLink
-                  to="/"
-                  className="block py-2 md:py-0 hover:text-[#EE0A73] transition-colors duration-200"
-                >
-                  BITCY STORY
-                </NavLink>
-              </li>
-            </ul>
-          </div>
-          <div>
+            ))}
+          </ul>
+          <div className="mt-4 md:mt-0 md:ml-4">
             <button
               type="button"
+              className="text-[12px] md:text-[14px] lg:text-[16px] text-[#EE0A73] bg-[#FFA1C6] hover:bg-[#EE0A73] hover:text-[#FFA1C6] px-4 py-2 rounded-lg border-2 border-[#EE0A73] transition-colors duration-200"
               style={{
-                backgroundColor: "#FFA1C6",
-                color: "#EE0A73",
-                height: "50px",
-                width: "140px",
-                marginTop: "-10px",
-                border: "2px solid #EE0A73",
-                borderRadius: "10px",
                 textShadow: "2px 2px #EE0A73",
               }}
             >
@@ -123,10 +81,6 @@ const Navbar = () => {
             </button>
           </div>
         </div>
-        {/* Buy Now Button */}
-      </div>
-      <div className="bg-">
-
       </div>
     </nav>
   );
