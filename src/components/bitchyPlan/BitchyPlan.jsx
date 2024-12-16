@@ -1,4 +1,4 @@
-import React from "react";
+
 import GreenShape from "../../assets/greenShape.png";
 import LeftFlower from "../../assets/flower_left.png";
 import RightFlower from "../../assets/flower_right.png";
@@ -156,7 +156,7 @@ const BitchyPlan = () => {
       </div>
       </div>
       {/* Mobile view */}
-      <div lassName="block md:hidden relative">
+      <div className="block md:hidden relative">
       <div className=" absolute  z-50">
         <img src={LeaveBg} alt="" className="  " />
       </div>
@@ -171,7 +171,7 @@ const BitchyPlan = () => {
         <img src={Grass} alt="" className=" w-[90%]" />
       </div>
         {/*-----------------------Mobile: first flight----------------------- */}
-      <div className=" relative">
+      <div className="md:hidden block relative">
             <img src={GreenShapeMd} alt="" />
             <div
           className="text-[#EBE235] font-primaryRegular absolute top-6 left-0 text-center text-[1.3rem] uppercase font-bold mt-8"
@@ -194,7 +194,7 @@ const BitchyPlan = () => {
       </div>
       </div>
           {/*--------------------Mobile: pollination--------------------------- */}
-          <div className="relative  "  style={{marginTop:"60%"}}>
+          <div className="relative md:hidden block "  style={{marginTop:"60%"}}>
             <img src={BlueShapeMd} alt="" />
             <div
           className="text-[#EBE235] font-primaryRegular absolute top-5 text-[1.3rem] uppercase font-bold mt-5"
@@ -218,11 +218,11 @@ const BitchyPlan = () => {
         </div>
           </div>
 
-          <div>
-            <img src={Branch} alt="" />
+          <div className="md:hidden block">
+            <img src={Branch} alt=""/>
           </div>
           {/*---------------------------------Mobile: Pinkbox------------------------------------- */}
-          <div className=" relative " style={{marginTop:"-30%"}}>
+          <div className=" relative md:hidden block" style={{marginTop:"-30%"}}>
             <img src={PinkShapeMd} alt="" />
             <div
           className="text-[#EBE235] font-primaryRegular absolute top-10 left-8 uppercase text-[1.1rem] font-bold mt-4 "
