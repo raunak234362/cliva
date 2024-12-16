@@ -15,7 +15,7 @@ import Telegram from "../../assets/telegram-alt_svgrepo.com.png";
 
 export default function Hero() {
   return (
-    <div className="bg-[#5CBBFF] h-fit md:h-[90%] w-[100vw]">
+    <div className="bg-[#5CBBFF]  md:h-[73vh] sm:h-[100vh] w-full">
       <div>
         <img
           src={ButterflyImg}
@@ -101,7 +101,7 @@ export default function Hero() {
             </div>
 
             <div
-              className="md:absolute  md:translate-y-44 md:translate-x-64 sm:h-28 md:h-36 h-32 w-64"
+              className="md:absolute md:translate-y-44 md:translate-x-64 sm:h-28 md:h-36 h-32 w-64"
               style={{
                 backgroundImage: `url(${VoteCloud3})`,
                 backgroundSize: "contain",
@@ -135,13 +135,13 @@ export default function Hero() {
           <img src={Cloud} alt="Cloud1" />
           <img src={Cloud2} alt="Cloud2" />
         </div>
-        <div className=" flex flex-col justify-center items-center lg:pr-24 px-5 pb-6 z-50">
+        <div className=" flex flex-col justify-center items-center lg:pr-24 px-5 z-50">
           <img
             src={block1}
             alt="Voting"
-            className="w-[full] md:h-[28vh] lg:[36vh] xl:h-[40vh] object-contain"
+            className="w-[full] md:h-[28vh] lg:h-[36vh] xl:h-[40vh] object-contain"
           />
-          <div className="relative lg:pt-10 pt-8 ">
+          <div className="relative lg:pt-10 md:pt-8 ">
             <div className="">
               <img
                 src={box}
@@ -149,21 +149,25 @@ export default function Hero() {
                 className="w-[full] md:h-[8vh] lg:h-[8vh] object-contain"
               />
             </div>
-            <div className="xl:pl-12 lg:pl-16 md:pl-16  xl:-translate-y-12 lg:-translate-y-16 md:-translate-y-16 sm:-translate-y-5 flex items-center md:gap-8 lg:gap-10 xl:gap-8">
-              <a href="">
-                <img src={XImg} alt="" className="xl:h-10 lg:h-8 md:h-[30px] sm:h-[10px]" />
-              </a>
-              <a href="">
-                <img
-                  src={Telegram}
-                  alt=""
-                  className="xl:h-12 lg:h-10 md:h-[40px]"
-                />
-              </a>
+            <div className="xl:pl-12 lg:pl-16 md:pl-16 xl:-translate-y-12 lg:-translate-y-16 md:-translate-y-16 sm:-translate-y-5 flex items-center md:gap-8 lg:gap-10 xl:gap-8">
+              <div className="xl:h-10 lg:h-8 md:h-[10px] sm:h-[10px]">
+                <a href="">
+                  <img src={XImg} alt="" />
+                </a>
+              </div>
+              <div className="xl:h-12 lg:h-10 md:h-[10px] sm:h-4">
+                <a href="">
+                  <img
+                    src={Telegram}
+                    alt=""
+                    
+                  />
+                </a>
+              </div>
             </div>
           </div>
         </div>
-        <div className="absolute md:translate-y-72 hidden md:block">
+        <div className="absolute xl:translate-y- lg:translate-y-96 md:translate-y-96 hidden md:block">
           <img src={Cloud} alt="Cloud" />
         </div>
       </div>

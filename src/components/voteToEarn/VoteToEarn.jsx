@@ -5,52 +5,55 @@ import Cliva from "../cliva/Cliva";
 
 const VoteToEarn = () => {
   return (
-    <div className="flex justify-center font-primaryRegular md:pt-0 pt-2 bg-[#5CBBFF] h-[120vh] md:h-[100vh]">
-      <div className="flex md:flex-row flex-col">
-        <div className="z-50 flex md:pt-0 pt-16 justify-center items-center flex-col gap-10 ">
-          <div
-            className="col-span-2 text-[#228EFD] md:text-3xl"
-            style={{
-              color: "#228EFD",
-              borderRadius: "10px",
-              textShadow:
-                "2px 2px 5px #fff, -2px -2px 5px #fff, 2px -2px 5px #fff, -2px 2px 5px #fff",
-            }}
-          >
-            <p>VOTE TO EARN</p>
-          </div>
-          <div className="col-span-2 text-[#fff] md:text-2xl text-lg text-center font-secondRegular">
-            <p>
-              Empowering the true believers <br />
-              of decentralization. Bitchy <br />
-              CLIVA brings back the <br /> revolutionary spirit that <br />
-              sparked blockchain & Web3 <br /> adoption.
-            </p>
-          </div>
-          <div className="z-50">
-           <Cliva/>
-          </div>
-        </div>
-        <div className="z-50">
-          <div className="hidden md:block pt-10">
-            <img
-              src={BuVoting}
-              alt="voting"
-              className="absolute right-0 object-contain w-fit h-max"
-            />
-          </div>
-          <div className="md:pt-40 ">
-            <img
-              src={clivavotinf}
-              alt="Butterfly"
-              className="w-full h-[60vh] object-contain"
-            />
-          </div>
-        </div>
-      </div>
-      <div className="absolute -translate-y-6 z-0">
+    <div className="h-screen">
+       <div className="absolute  z-50">
         <img src={cloud2} alt="" className="" />
       </div>
+      <div className="flex justify-center font-primaryRegular bg-[#5CBBFF] h-[120vh] md:h-[100vh]">
+        <div className="flex md:flex-row flex-col">
+          <div className="z-50 flex justify-center items-center flex-col gap-10 ">
+            <div
+              className="col-span-2 text-[#228EFD] md:xl lg:text-3xl"
+              style={{
+                color: "#228EFD",
+                borderRadius: "10px",
+                textShadow:
+                  "2px 2px 5px #fff, -2px -2px 5px #fff, 2px -2px 5px #fff, -2px 2px 5px #fff",
+              }}
+            >
+              <p>VOTE TO EARN</p>
+            </div>
+            <div className="col-span-2 text-[#fff] md:text-2xl text-lg text-center font-secondRegular">
+              <p>
+                Empowering the true believers <br />
+                of decentralization. Bitchy <br />
+                CLIVA brings back the <br /> revolutionary spirit that <br />
+                sparked blockchain & Web3 <br /> adoption.
+              </p>
+            </div>
+            <div className="z-50">
+              <Cliva />
+            </div>
+          </div>
+          <div className="z-50">
+            <div className="hidden md:block pt-10">
+              <img
+                src={BuVoting}
+                alt="voting"
+                className="absolute right-0 object-contain w-fit h-max"
+              />
+            </div>
+            <div className="lg:pt-40 md:pt-">
+              <img
+                src={clivavotinf}
+                alt="Butterfly"
+                className="w-full md:h-[40vh] lg: object-contain"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+     
     </div>
   );
 };
