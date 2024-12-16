@@ -34,7 +34,7 @@ const Decentralized = () => {
         <img src={upperhead} alt="upperhead" />
       </div>
       <div
-        className="md:h-[155vh] h-full"
+        className=""
         style={{
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",

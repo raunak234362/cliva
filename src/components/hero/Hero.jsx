@@ -15,12 +15,12 @@ import Telegram from "../../assets/telegram-alt_svgrepo.com.png";
 
 export default function Hero() {
   return (
-    <div className="bg-[#5CBBFF] lg:h[85vh] md:h-[73vh] sm:h-[100vh] w-full">
+    <div className="bg-[#5CBBFF] w-full">
       <div>
         <img
           src={ButterflyImg}
           alt="Butterfly"
-          className="hidden md:block w-full z-0 opacity-70 absolute object-contain h-96 object-left-top"
+          className="md:xl:hidden sm:md:block w-full z-0 opacity-70 absolute object-contain h-96 object-left-top"
         />
         <img
           src={Cloud2}
@@ -71,10 +71,10 @@ export default function Hero() {
 
       {/* Image and Button Section */}
       <div className="flex flex-col-reverse gap-5 z-50 md:flex-row md:justify-between">
-        <div className="flex flex-col-reverse md:flex-col md:justify-normal justify-center items-center md:items-start z-10">
-          <div>
+        <div className=" flex flex-col-reverse md:flex-col md:justify-normal justify-center items-center md:items-start z-10">
+          <div className="sm:max-md:flex sm:max-md:flex-col gap-3 my-12">
             <div
-              className="md:absolute md:translate-y-16 md:translate-x-32 sm:h-20 md:h-32 lg:h-44 w-64"
+              className="md:absolute md:max-xl:-translate-y-20 md:translate-x-32 md:max-xl:h-96 md:max-xl:w-44 h-32 w-64"
               style={{
                 backgroundImage: `url(${VoteCloud2})`,
                 backgroundSize: "contain",
@@ -87,7 +87,7 @@ export default function Hero() {
               </div>
             </div>
             <div
-              className="md:absolute md:translate-y-32 sm:h-28 md:h-32 h-20 w-64 text-center"
+              className="md:absolute md:translate-y-32 md:w-28 h-32 w-64 text-center"
               style={{
                 backgroundImage: `url(${VoteCloud1})`,
                 backgroundSize: "contain",
@@ -101,7 +101,7 @@ export default function Hero() {
             </div>
 
             <div
-              className="md:absolute md:translate-y-44 md:translate-x-64 sm:h-28 md:h-28 lg:h-32 w-64"
+              className="md:absolute md:translate-x-64 md:w-28 h-32 w-64"
               style={{
                 backgroundImage: `url(${VoteCloud3})`,
                 backgroundSize: "contain",
@@ -114,7 +114,7 @@ export default function Hero() {
               </div>
             </div>
             <div
-              className="md:absolute md:translate-y-52 md:translate-x-28 md:h-28 h-32 w-64"
+              className="md:absolute md:translate-y-52 md:translate-x-28 md:w-28 h-32 w-64"
               style={{
                 backgroundImage: `url(${VoteCloud4})`,
                 backgroundSize: "contain",
@@ -127,7 +127,7 @@ export default function Hero() {
               </div>
             </div>
           </div>
-          <div className="z-50 md:pt-0 pt-10 md:translate-x-52 md:translate-y-48 md:absolute ">
+          <div className="z-50 md:absolute ">
             <Cliva />
           </div>
         </div>
@@ -141,27 +141,23 @@ export default function Hero() {
             alt="Voting"
             className="w-[full] md:h-[28vh] lg:h-[36vh] xl:h-[40vh] object-contain"
           />
-          <div className="relative lg:pt-10 md:pt-8 ">
-            <div className="">
-              <img
-                src={box}
-                alt=""
-                className="w-[full] md:h-[8vh] lg:h-[8vh] object-contain"
-              />
-            </div>
-            <div className="xl:pl-12 lg:pl-16 md:pl-12 xl:-translate-y-12 lg:-translate-y-16 md:-translate-y-16 sm:-translate-y-5 flex items-center md:gap-8 lg:gap-10 xl:gap-8">
-              <div className="xl:h-10 lg:h-8 md:h-2 sm:h-4">
+          <div className="lg:pt-20 md:pt-5 pt-10">
+            <div
+              className="flex justify-center items-center h-16 w-96"
+              style={{
+                backgroundImage: `url(${box})`,
+                backgroundSize: "contain",
+                backgroundRepeat: "no-repeat",
+                backgroundPosition: "center",
+              }}
+            >
+              <div className="absolute flex items-center gap-6 md:gap-8 lg:gap-10 xl:gap-8">
                 <a href="">
-                  <img src={XImg} alt="" className="md:w-10 lg:w-16" />
+                  <img src={XImg} alt="" className="w-6 md:w-8" />
                 </a>
-              </div>
-              <div className="xl:h-12 lg:h-10 md:h-2 sm:h-4">
+
                 <a href="">
-                  <img
-                    src={Telegram}
-                    alt=""
-                    className="md:w-10 lg:w-16"
-                  />
+                  <img src={Telegram} alt="" className="w-6 md:w-8" />
                 </a>
               </div>
             </div>

@@ -5,15 +5,15 @@ import Cliva from "../cliva/Cliva";
 
 const VoteToEarn = () => {
   return (
-    <div className="h-screen">
+    <div className="w-full">
        <div className="absolute  z-50">
         <img src={cloud2} alt="" className="" />
       </div>
-      <div className="flex justify-center font-primaryRegular bg-[#5CBBFF] h-[120vh] md:h-[100vh]">
+      <div className="flex justify-center font-primaryRegular bg-[#5CBBFF]">
         <div className="flex md:flex-row flex-col">
-          <div className="z-50 flex justify-center items-center flex-col gap-10 ">
+          <div className="z-50 flex justify-center items-center flex-col gap-10 my-6">
             <div
-              className="col-span-2 text-[#228EFD] md:xl lg:text-3xl"
+              className="col-span-2 text-[#228EFD] sm:md:text-lg md:xl:text-3xl"
               style={{
                 color: "#228EFD",
                 borderRadius: "10px",
@@ -36,14 +36,14 @@ const VoteToEarn = () => {
             </div>
           </div>
           <div className="z-50">
-            <div className="hidden md:block pt-10">
+            <div className="md:absolute translate-x-48 -z-50 opacity-80 hidden md:block">
               <img
                 src={BuVoting}
                 alt="voting"
-                className="absolute right-0 object-contain w-fit h-max"
+                className="object-contain h-72"
               />
             </div>
-            <div className="lg:pt-40 md:pt-">
+            <div className="z-50 lg:pt-40 md:pt-">
               <img
                 src={clivavotinf}
                 alt="Butterfly"
