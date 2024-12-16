@@ -15,7 +15,7 @@ import Telegram from "../../assets/telegram-alt_svgrepo.com.png";
 
 export default function Hero() {
   return (
-    <div className="bg-[#5CBBFF]  md:h-[73vh] sm:h-[100vh] w-full">
+    <div className="bg-[#5CBBFF] lg:h[85vh] md:h-[73vh] sm:h-[100vh] w-full">
       <div>
         <img
           src={ButterflyImg}
@@ -101,7 +101,7 @@ export default function Hero() {
             </div>
 
             <div
-              className="md:absolute md:translate-y-44 md:translate-x-64 sm:h-28 md:h-36 h-32 w-64"
+              className="md:absolute md:translate-y-44 md:translate-x-64 sm:h-28 md:h-28 lg:h-32 w-64"
               style={{
                 backgroundImage: `url(${VoteCloud3})`,
                 backgroundSize: "contain",
@@ -149,25 +149,25 @@ export default function Hero() {
                 className="w-[full] md:h-[8vh] lg:h-[8vh] object-contain"
               />
             </div>
-            <div className="xl:pl-12 lg:pl-16 md:pl-16 xl:-translate-y-12 lg:-translate-y-16 md:-translate-y-16 sm:-translate-y-5 flex items-center md:gap-8 lg:gap-10 xl:gap-8">
-              <div className="xl:h-10 lg:h-8 md:h-[10px] sm:h-[10px]">
+            <div className="xl:pl-12 lg:pl-16 md:pl-12 xl:-translate-y-12 lg:-translate-y-16 md:-translate-y-16 sm:-translate-y-5 flex items-center md:gap-8 lg:gap-10 xl:gap-8">
+              <div className="xl:h-10 lg:h-8 md:h-2 sm:h-4">
                 <a href="">
-                  <img src={XImg} alt="" />
+                  <img src={XImg} alt="" className="md:w-10 lg:w-16" />
                 </a>
               </div>
-              <div className="xl:h-12 lg:h-10 md:h-[10px] sm:h-4">
+              <div className="xl:h-12 lg:h-10 md:h-2 sm:h-4">
                 <a href="">
                   <img
                     src={Telegram}
                     alt=""
-                    
+                    className="md:w-10 lg:w-16"
                   />
                 </a>
               </div>
             </div>
           </div>
         </div>
-        <div className="absolute xl:translate-y- lg:translate-y-96 md:translate-y-96 hidden md:block">
+        <div className="absolute xl:translate-y- lg:-translate-y- md:translate-y-48 hidden md:block">
           <img src={Cloud} alt="Cloud" />
         </div>
       </div>
