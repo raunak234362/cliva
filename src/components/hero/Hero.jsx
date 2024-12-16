@@ -74,7 +74,7 @@ export default function Hero() {
         <div className="flex flex-col-reverse md:flex-col md:justify-normal justify-center items-center md:items-start z-10">
           <div>
             <div
-              className="md:absolute md:translate-y-16 md:translate-x-52 md:h-44 h-32 w-64"
+              className="md:absolute md:translate-y-16 md:translate-x-32 sm:h-20 md:h-32 lg:h-44 w-64"
               style={{
                 backgroundImage: `url(${VoteCloud2})`,
                 backgroundSize: "contain",
@@ -87,7 +87,7 @@ export default function Hero() {
               </div>
             </div>
             <div
-              className="md:absolute md:translate-y-28 md:h-44 h-36 w-64 text-center"
+              className="md:absolute md:translate-y-32 sm:h-28 md:h-32 h-20 w-64 text-center"
               style={{
                 backgroundImage: `url(${VoteCloud1})`,
                 backgroundSize: "contain",
@@ -101,7 +101,7 @@ export default function Hero() {
             </div>
 
             <div
-              className="md:absolute  md:translate-y-44 md:translate-x-96 md:h-44 h-32 w-64"
+              className="md:absolute  md:translate-y-44 md:translate-x-64 sm:h-28 md:h-36 h-32 w-64"
               style={{
                 backgroundImage: `url(${VoteCloud3})`,
                 backgroundSize: "contain",
@@ -114,7 +114,7 @@ export default function Hero() {
               </div>
             </div>
             <div
-              className="md:absolute md:translate-y-56 md:translate-x-36 md:h-44 h-32 w-64"
+              className="md:absolute md:translate-y-52 md:translate-x-28 md:h-28 h-32 w-64"
               style={{
                 backgroundImage: `url(${VoteCloud4})`,
                 backgroundSize: "contain",
@@ -131,7 +131,7 @@ export default function Hero() {
             <Cliva />
           </div>
         </div>
-        <div className="block md:hidden">
+        <div className="block lg:hidden md:hidden xl:hidden">
           <img src={Cloud} alt="Cloud1" />
           <img src={Cloud2} alt="Cloud2" />
         </div>
@@ -139,18 +139,26 @@ export default function Hero() {
           <img
             src={block1}
             alt="Voting"
-            className="w-[full] md:h-[40vh] lg:h-[40vh] object-contain"
+            className="w-[full] md:h-[28vh] lg:[36vh] xl:h-[40vh] object-contain"
           />
-          <div className="lg:pt-10 pt-8 ">
+          <div className="relative lg:pt-10 pt-8 ">
             <div className="">
-              <img src={box} alt="" className="w-[full] md:h-[8vh] lg:h-[8vh] object-contain"/>
+              <img
+                src={box}
+                alt=""
+                className="w-[full] md:h-[8vh] lg:h-[8vh] object-contain"
+              />
             </div>
-            <div className="lg:pl-12 md:pl-5 absolute md:-translate-y-12 lg:-translate-y-16 flex items-center gap-8">
+            <div className="xl:pl-12 lg:pl-16 md:pl-16  xl:-translate-y-12 lg:-translate-y-16 md:-translate-y-16 sm:-translate-y-5 flex items-center md:gap-8 lg:gap-10 xl:gap-8">
               <a href="">
-                <img src={XImg} alt="" className="xl:h-10 lg:h-10 md:h-[30px]" />
+                <img src={XImg} alt="" className="xl:h-10 lg:h-8 md:h-[30px] sm:h-[10px]" />
               </a>
               <a href="">
-                <img src={Telegram} alt="" className="xl:h-12  md:h-[40px]" />
+                <img
+                  src={Telegram}
+                  alt=""
+                  className="xl:h-12 lg:h-10 md:h-[40px]"
+                />
               </a>
             </div>
           </div>
