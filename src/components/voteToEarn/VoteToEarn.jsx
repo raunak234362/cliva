@@ -9,8 +9,8 @@ const VoteToEarn = () => {
       <div className="absolute  z-50">
         <img src={cloud2} alt="" className="" />
       </div>
-      <div className="flex justify-center font-primaryRegular bg-[#5CBBFF]">
-        <div className="flex md:flex-row flex-col">
+      <div className=" justify-evenly font-primaryRegular bg-[#5CBBFF]">
+        <div className="flex md:flex-row flex-col justify-around">
           <div className="z-50 flex justify-center items-center flex-col gap-10 my-6">
             <div
               className="col-span-2 text-[#228EFD] sm:md:text-lg md:xl:text-3xl"

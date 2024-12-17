@@ -1,30 +1,11 @@
 import upperhead from "../../assets/2664 3.png";
 import lowerhead from "../../assets/2664 5.png";
-import BoxBack from "../../assets/Frame 27.png";
+import MainBox from "../../assets/Frame 27 (1).png";
 import BackgroundImg2 from "../../assets/2664.png";
 import ButterFly from "../../assets/IMG_4440.png";
 import Cliva from "../cliva/Cliva";
-import { useState, useEffect } from "react";
 
 const Decentralized = () => {
-  const [mobileView, setMobileView] = useState(false);
-
-  const isMobileView = () => {
-    return window.innerWidth <= 768;
-  };
-
-  useEffect(() => {
-    setMobileView(isMobileView());
-    const handleResize = () => {
-      setMobileView(isMobileView());
-    };
-
-    window.addEventListener("resize", handleResize);
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
-  }, []);
-
   return (
     <div className="">
       {/* Upper Section */}
@@ -42,7 +23,7 @@ const Decentralized = () => {
         <div className="pt-20 flex flex-col justify-center items-center text-center z-10 gap-5">
           {/* Heading */}
           <div
-            className="font-primaryRegular text-base md:text-2xl xl:text-3xl tracking-wide"
+            className="font-primaryRegular text-base md:text-lg xl:text-xl tracking-wide"
             style={{
               color: "#FFB031",
               textShadow:
@@ -53,48 +34,19 @@ const Decentralized = () => {
           </div>
 
           {/* Content Box */}
-          <div className="md:flex md:justify-between">
-            <div
-              className="relative md:w-[50vw] flex justify-center items-center pl-5 pr-10 md:pl-36 md:pr-44 h-[100vh] text-sm md:text-xl lg:text-xl text-left"
-              style={{
-                backgroundImage: `url(${BoxBack})`,
-                backgroundSize: "contain",
-                backgroundRepeat: "no-repeat",
-                backgroundPosition: "center",
-              }}
-            >
-              <div className="w-full flex flex-col md:gap-16 gap-10 ">
-                <div className="  text-white">
-                  <p className="font-secondRegular ">
-                    Close your eyes. Wait, if you close it, how will you read it
-                    then?
-                  </p>
-                </div>
-                <div className="  text-white">
-                  <p className="font-secondRegular ">
-                    OK now - Imagine a world where the major decisions about the
-                    token you hold dear aren’t dictated by close-knit insiders,
-                    but they come from the community.
-                  </p>
-                </div>
-                <div className=" text-white">
-                  <p className="font-secondRegular pr-10">
-                    Moving further, now get a flashback on why web3.0 was
-                    adopted mainstream. You know, believers were keen to solve
-                    the problems of inequality, poverty, hunger, disempowerment,
-                    and so on. Wingoarena encompasses a platform where people
-                    from all walks of life, all geographies—be it Burundi or
-                    Sweden—everyone will have the opportunities to excel and
-                    realize their potential.
-                  </p>
-                </div>
-              </div>
+          <div className="flex md:justify-between justify-center items-center px-10 w-full">
+            <div>
+              <img
+                src={MainBox}
+                alt=""
+                className=" w-fit h-96 top-[30vh] mx-auto"
+              />
             </div>
-            <div className="md:block relative">
+            <div className="md:block hidden">
               <img
                 src={ButterFly}
                 alt="Butterfly"
-                className="absolute w-fit h-[60vh] top-[30vh] mx-auto"
+                className="w-fit h-96 top-[30vh] mx-auto"
               />
             </div>
           </div>
@@ -107,17 +59,27 @@ const Decentralized = () => {
       </div>
 
       {/* Mobile View Image Section */}
-      <div className="md:hidden w-full flex justify-center relative">
-        <img
-          src={ButterFly}
-          alt="Butterfly"
-          className="absolute w-fit h-[60vh] top-[30vh] mx-auto"
-        />
-        <img
+      <div
+        className="md:hidden flex w-full justify-center items-end h-[90vh]"
+        style={{
+          backgroundImage: `url(${BackgroundImg2})`,
+          backgroundSize: "cover",
+          backgroundRepeat: "no-repeat",
+          backgroundPosition: "center",
+        }}
+      >
+        <div>
+          <img
+            src={ButterFly}
+            alt="Butterfly"
+            className="w-fit h-[60vh] mx-auto"
+          />
+        </div>
+        {/* <img
           src={BackgroundImg2}
           alt="Background"
           className="h-[90vh] object-cover w-full"
-        />
+        /> */}
       </div>
 
       {/* Lower Section */}

@@ -3,7 +3,8 @@ import ButterflyImg from "../../assets/rb_21.png";
 import JoinClivaImg from "../../assets/Frame44.png";
 import Cloud from "../../assets/cloud1.png";
 import Cloud2 from "../../assets/cloud2.png";
-import block1 from "../../assets/Group 10.png";
+import block1 from "../../assets/Group 11.png";
+import cloudBG from "../../assets/Frame45.png";
 import VoteCloud1 from "../../assets/Votecloud1.png";
 import VoteCloud2 from "../../assets/Votecloud2.png";
 import VoteCloud3 from "../../assets/Votecloud3.png";
@@ -71,7 +72,7 @@ export default function Hero() {
 
       {/* Image and Button Section */}
       <div className="flex flex-col-reverse gap-5 z-50 md:flex-row md:justify-between">
-        <div className=" flex flex-col-reverse md:flex-col md:justify-normal justify-center items-center md:items-start z-10">
+        <div className=" md:hidden flex flex-col-reverse justify-center items-center z-10">
           <div className="sm:max-md:flex sm:max-md:flex-col gap-3 my-12">
             <div
               className="md:absolute md:max-xl:-translate-y-20 md:translate-x-32 md:max-xl:h-96 md:max-xl:w-44 h-32 w-64"
@@ -131,38 +132,45 @@ export default function Hero() {
             <Cliva />
           </div>
         </div>
+        <div
+          className="w-96 h-96 z-50 md:flex hidden md:justify-center md:items-center"
+          style={{
+            backgroundImage: `url(${cloudBG})`,
+            backgroundSize: "contain",
+            backgroundRepeat: "no-repeat",
+            backgroundPosition: "center",
+          }}
+        >
+          <div className="absolute z-50">
+            <Cliva className=""/>
+          </div>
+        </div>
+        <div className=" flex flex-col justify-center items-center">
+          <div
+            className="flex justify-center items-end h-96 w-96 py-4 z-50"
+            style={{
+              backgroundImage: `url(${block1})`,
+              backgroundSize: "contain",
+              backgroundRepeat: "no-repeat",
+              backgroundPosition: "center",
+            }}
+          >
+            <div className="absolute flex gap-6 md:gap-8 lg:gap-10 xl:gap-8">
+              <a href="">
+                <img src={XImg} alt="" className="w-6 md:w-8" />
+              </a>
+
+              <a href="">
+                <img src={Telegram} alt="" className="w-6 md:w-8" />
+              </a>
+            </div>
+          </div>
+        </div>
         <div className="block lg:hidden md:hidden xl:hidden">
           <img src={Cloud} alt="Cloud1" />
           <img src={Cloud2} alt="Cloud2" />
         </div>
-        <div className=" flex flex-col justify-center items-center lg:pr-24 px-5 z-50">
-          <img
-            src={block1}
-            alt="Voting"
-            className="w-[full] md:h-[28vh] lg:h-[36vh] xl:h-[40vh] object-contain"
-          />
-          <div className="lg:pt-20 md:pt-5 pt-10">
-            <div
-              className="flex justify-center items-center h-16 w-96"
-              style={{
-                backgroundImage: `url(${box})`,
-                backgroundSize: "contain",
-                backgroundRepeat: "no-repeat",
-                backgroundPosition: "center",
-              }}
-            >
-              <div className="absolute flex items-center gap-6 md:gap-8 lg:gap-10 xl:gap-8">
-                <a href="">
-                  <img src={XImg} alt="" className="w-6 md:w-8" />
-                </a>
 
-                <a href="">
-                  <img src={Telegram} alt="" className="w-6 md:w-8" />
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
         <div className="absolute xl:translate-y- lg:-translate-y- md:translate-y-48 hidden md:block">
           <img src={Cloud} alt="Cloud" />
         </div>
