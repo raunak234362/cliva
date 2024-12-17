@@ -34,7 +34,7 @@ const Decentralized = () => {
           </div>
 
           {/* Content Box */}
-          <div className="flex md:justify-between justify-center items-center px-10 w-full">
+          <div className="flex md:justify-around justify-center items-center px-10 w-full">
             <div>
               <img
                 src={MainBox}
