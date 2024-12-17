@@ -141,7 +141,7 @@ export default function Hero() {
             backgroundPosition: "center",
           }}
         >
-          <div className="absolute z-50">
+          <div className="absolute h-16 translate-x-3 z-50">
             <Cliva className=""/>
           </div>
         </div>
