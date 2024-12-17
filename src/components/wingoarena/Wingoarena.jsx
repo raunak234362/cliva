@@ -9,11 +9,11 @@ const Wingoarena = () => {
     <div className="bg-[#FFD28A] h-full w-[100vw] relative ">
       {/*website view */}
       <div className="hidden md:block">
-      <div className="absolute top-0 right-0" style={{marginTop: "12%", marginRight:"5%"}}>
+      <div className="absolute top-8 left-96 " >
         <img src={Logo} alt="logo" className="w-[70%] " />
       </div>
-      <div className="font-secondRegular absolute text-4xl  top-0 right-0 text-[#228EFD] text-center font-[1000]" 
-      style={{marginTop:"32%", marginRight:"7%", lineHeight:"1.5", WebkitTextStroke: "1px black",
+      <div className="font-secondRegular absolute lg:mr-[6%] lg:text-3xl mt-[30%] mr-[2%]  md:text-2xl  top-0 right-0 text-[#228EFD] text-center font-[1000]" 
+      style={{ WebkitTextStroke: "1px black",
         textShadow: "0 4px 4px rgba(0, 0, 0, 0.5)"}}>
       <p> Empowering the true believers</p>
       <p> of decentralization. Bitchy </p>
@@ -23,7 +23,7 @@ const Wingoarena = () => {
       <p> adoption.</p>
       </div>
 
-      <div className="absolute right-0 bottom-0" style={{marginBottom:"28%", marginRight:"14%"}}>
+      <div className="absolute right-0 bottom-0 md:mb-48 mr-24 lg:mb-[20%] lg:mr-[16%]">
         <Cliva/>
       </div>
       {/* Butterfly Castle Image */}
