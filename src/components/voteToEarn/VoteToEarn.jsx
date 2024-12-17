@@ -6,7 +6,7 @@ import Cliva from "../cliva/Cliva";
 const VoteToEarn = () => {
   return (
     <div className="w-full">
-       <div className="absolute  z-50">
+      <div className="absolute  z-50">
         <img src={cloud2} alt="" className="" />
       </div>
       <div className="flex justify-center font-primaryRegular bg-[#5CBBFF]">
@@ -53,7 +53,6 @@ const VoteToEarn = () => {
           </div>
         </div>
       </div>
-     
     </div>
   );
 };

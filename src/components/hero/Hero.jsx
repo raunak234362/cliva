@@ -82,7 +82,7 @@ export default function Hero() {
                 backgroundPosition: "center",
               }}
             >
-              <div className="font-primaryRegular tracking-widest md:translate-y-20 translate-y-12 text-center md:text-[8px] text-[8px] text-[#fff]">
+              <div className="font-primaryRegular tracking-widest translate-y-20 text-center sm:md:text-[6px] text-[8px] text-[#fff]">
                 UNITE GLOBALLY <br /> WITH NO-BARRIERS
               </div>
             </div>
@@ -127,7 +127,7 @@ export default function Hero() {
               </div>
             </div>
           </div>
-          <div className="z-50 md:absolute ">
+          <div className="z-50 md:absolute sm:md:hidden">
             <Cliva />
           </div>
         </div>

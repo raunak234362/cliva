@@ -7,7 +7,7 @@ const Footer = () => {
     <div className="bg-[#236814] pt-2">
       <div className="bg-[#369C1E] py-16 flex flex-col md:flex-row md:justify-between px-10 bottom-0">
         <div
-          className="font-primaryRegular text-center flex flex-col tracking-widest justify-center text-3xl md:text-6xl md:tracking-[12px] px-10 z-10 gap-5"
+          className="font-primaryRegular text-center flex flex-col tracking-widest justify-center text-3xl md:text-5xl md:tracking-[12px] px-10 z-10 gap-5"
           style={{
             color: "#228EFD",
             borderRadius: "10px",
@@ -19,27 +19,29 @@ const Footer = () => {
           <br className="md:hidden block" />
           CLIVA
           <div className="md:block hidden translate-x-[92%] -translate-y-16">
-            <img
-              src={fly}
-              alt=""
-              className=" w-8 z-50 absolute"
-            />
+            <img src={fly} alt="" className=" w-8 z-50 absolute" />
           </div>
         </div>
-        <div className="md:pt-0 pt-8 md:pl-0 pl-12">
-          <div className="md:hidden block w-16 translate-x-24 translate-y-3">
-            <img src={fly} alt="" />
-          </div>
-          <div>
-            <img src={box} alt="" />
-          </div>
-          <div className="pl-16 absolute -translate-y-20 flex items-center gap-8">
-            <a href="">
-              <img src={XImg} alt="" className="h-12" />
-            </a>
-            <a href="">
-              <img src={Telegram} alt="" className="h-16" />
-            </a>
+        <div className="md:pt-0 pt-8 flex flex-col justify-center items-center">
+          <img src={fly} alt="" className="w-10 md:hidden block translate-y-3"/>
+          <div
+            className="flex justify-center items-center h-16 w-96"
+            style={{
+              backgroundImage: `url(${box})`,
+              backgroundSize: "contain",
+              backgroundRepeat: "no-repeat",
+              backgroundPosition: "center",
+            }}
+          >
+            <div className="absolute flex items-center gap-6 md:gap-8 lg:gap-10 xl:gap-8">
+              <a href="">
+                <img src={XImg} alt="" className="w-6 md:w-8" />
+              </a>
+
+              <a href="">
+                <img src={Telegram} alt="" className="w-6 md:w-8" />
+              </a>
+            </div>
           </div>
         </div>
       </div>

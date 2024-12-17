@@ -40,7 +40,7 @@ const Wingonomics = () => {
                 >
                   PRESALE PHASE
                 </h1>
-                <p className="font-secondRegular md:pr-72 text-white">
+                <p className="font-secondRegular text-white">
                   15% of the total supply will be allocated to the presale
                   phase. Ensuring this early nectar will ensure liquidity to
                   jump start the project.
@@ -58,7 +58,7 @@ const Wingonomics = () => {
                 >
                   VOTING VAULT & SOCIAL CAUSE FUND
                 </h1>
-                <p className="font-secondRegular md:pr-72 text-white">
+                <p className="font-secondRegular text-white">
                   5% of the total supply will be in the vote-to-earn vault and
                   social cause fund. PS: The more you engage- the more you earn.
                 </p>
@@ -75,7 +75,7 @@ const Wingonomics = () => {
                 >
                   STAKING
                 </h1>
-                <p className="font-secondRegular md:pr-72 text-white">
+                <p className="font-secondRegular text-white">
                   20% of the total supply will be reserved for staking rewards,
                   incentivizing long-term holders and fostering a stable
                   ecosystem.
@@ -85,7 +85,7 @@ const Wingonomics = () => {
                 <img src={butterfly} alt="" />
               </div>
             </div>
-            <div className="md:-mt-60">
+            <div className="md:-mt-52">
               <div>
                 <img src={PieCha} alt="" className="md:block hidden" />
                 <img src={PieChart} alt="" className="md:hidden block" />
@@ -189,7 +189,7 @@ const Wingonomics = () => {
                   >
                     PROJECT DEVELOPMENT
                   </h1>
-                  <p className="font-secondRegular md:pr-72 text-white">
+                  <p className="font-secondRegular2 text-white">
                     30% of the total supply will be used up in developing
                     platforms around the bitchy vision.
                   </p>
@@ -206,7 +206,7 @@ const Wingonomics = () => {
                   >
                     MARKETING
                   </h1>
-                  <p className="font-secondRegular md:pr-72 text-white">
+                  <p className="font-secondRegular text-white">
                     A full 20% earmarked for spreading the word about bitchy
                     Clive
                   </p>
@@ -223,7 +223,7 @@ const Wingonomics = () => {
                   >
                     LIQUIDITY
                   </h1>
-                  <p className="font-secondRegular md:pr-72 text-white">
+                  <p className="font-secondRegular text-white">
                     Liquidity pool of 10% for decentralized exchange listings.
                   </p>
                 </div>
