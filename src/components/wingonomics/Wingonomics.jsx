@@ -1,4 +1,4 @@
-import tree from "../../../public/rb_83615 1.png";
+import tree from "../../../public/rb_836151.png";
 import butterfly from "../../../public/frame39.png";
 import PieCha from "../../../public/frame34.png";
 import PieChart from "../../../public/frame35.png";

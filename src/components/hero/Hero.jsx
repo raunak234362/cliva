@@ -1,6 +1,5 @@
 /* eslint-disable no-unused-vars */
 import ButterflyImg from "../../../public/rb_21.png";
-import JoinClivaImg from "../../../public/Frame44.png";
 import Cloud from "../../../public/cloud1.png";
 import Cloud2 from "../../../public/cloud2.png";
 import block1 from "../../../public/group11.png";
@@ -10,7 +9,6 @@ import VoteCloud2 from "../../../public/votecloud2.png";
 import VoteCloud3 from "../../../public/votecloud3.png";
 import VoteCloud4 from "../../../public/votecloud4.png";
 import Cliva from "../cliva/Cliva";
-import box from "../../../public/rectangle8.png";
 import XImg from "../../../public/vector.png";
 import Telegram from "../../../public/telegram-alt_svgrepo.com.png";
 
