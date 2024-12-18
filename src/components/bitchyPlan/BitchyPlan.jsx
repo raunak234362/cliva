@@ -186,7 +186,7 @@ const BitchyPlan = () => {
         <div className="relative md:hidden block " style={{ marginTop: "60%" }}>
           <img src={BlueShapeMd} alt="" />
           <div
-            className="text-[#EBE235] font-primaryRegular absolute top-5 text-[1.3rem] uppercase font-bold mt-5"
+            className="text-[#EBE235] font-primaryRegular absolute top-5 uppercase font-bold mt-5"
             style={{
               marginLeft: "10%",
               WebkitTextStroke: "1px #F39734",
@@ -198,8 +198,7 @@ const BitchyPlan = () => {
           </div>
 
           <div
-            className=" absolute bottom-0 text-lg font-secondRegular text-white"
-            style={{ marginBottom: "20%", marginLeft: "2%", lineHeight: "2" }}
+            className=" absolute top-32 left-5 leading-8 font-secondRegular text-white"
           >
             <p> Audits and public disclosure of smart contract</p>
             <p>Marketing using influential voices</p>

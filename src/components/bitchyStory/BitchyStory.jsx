@@ -96,10 +96,10 @@ const BitchyStory = () => {
 
       <div className=' absolute top-0 '>
         <img src={BlueShapeMd} alt="" />
-        <div className=" absolute top-4 text-white  font-secondRegular" style={{lineHeight:'2', marginLeft:"4%"}}>
-        <p className=' font-primaryRegular uppercase ' style={{WebkitTextStroke: "1px #228EFD"}}>SHE WAS A DELICATE AND INNOCENT BUTTERFLY  </p>
+        <div className=" absolute top-4 text-white   font-secondRegular">
+        <p className=' font-primaryRegular uppercase text-sm leading-6 ml-3' style={{WebkitTextStroke: "1px #228EFD"}}>SHE WAS A DELICATE AND INNOCENT BUTTERFLY  </p>
       </div>
-      <div className=" absolute top-0 text-white font-secondRegular text-sm capitalize"  style={{marginTop:"24%", marginLeft:"4%"}}> 
+      <div className=" absolute top-0 text-white font-secondRegular text-sm capitalize mt-20 ml-5"  > 
             <p>...Until she flew deeper into the Forest. </p>
             <p>shattered by the view of Disparity,</p>
             <p>   Exclusion, Greed, and Corruption. So on.</p>
@@ -118,15 +118,15 @@ const BitchyStory = () => {
         </div>
         
         <div className='text-[#FF0A0A]  pt-4 capitalize leading-6' >
-            <p>Cliva has to become bitchy Cliva to guide the  </p>
-            <p>promised gains to the world from decentralisation  </p>
-            <p>tech. True change could come without a system,  </p>
-            <p>without a structure where all voices could be heard. </p>
-            <p>So, Cliva set to work to build a network, a governance, </p>
-            <p>one where the  suffering, the poor, and the innocent  </p>
-            <p>would have a place. Where no one would be ignored.  </p>
-            <p>Where greed would be replaced by generosity where  </p>
-            <p>cruelty would give way to compassion</p>
+            Cliva has to become bitchy Cliva to guide the  
+           promised gains to the world from decentralisation 
+            tech. True change could come without a system, 
+            without a structure where all voices could be heard. 
+            So, Cliva set to work to build a network, a governance, 
+            one where the  suffering, the poor, and the innocent  
+            would have a place. Where no one would be ignored.  
+            Where greed would be replaced by generosity where  
+            cruelty would give way to compassion
         </div>
        </div>
       </div>
