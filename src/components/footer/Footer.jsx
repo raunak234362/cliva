@@ -1,7 +1,7 @@
-import box from "../../assets/Rectangle 8.png";
-import XImg from "../../assets/Vector.png";
+import box from "../../assets/rectangle8.png";
+import XImg from "../../assets/vector.png";
 import Telegram from "../../assets/telegram-alt_svgrepo.com.png";
-import fly from "../../assets/Frame 17.png";
+import fly from "../../assets/frame17.png";
 const Footer = () => {
   return (
     <div className="bg-[#236814] pt-2 w-full">

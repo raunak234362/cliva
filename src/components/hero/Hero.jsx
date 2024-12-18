@@ -3,15 +3,15 @@ import ButterflyImg from "../../assets/rb_21.png";
 import JoinClivaImg from "../../assets/Frame44.png";
 import Cloud from "../../assets/cloud1.png";
 import Cloud2 from "../../assets/cloud2.png";
-import block1 from "../../assets/Group 11.png";
-import cloudBG from "../../assets/Frame45.png";
-import VoteCloud1 from "../../assets/Votecloud1.png";
-import VoteCloud2 from "../../assets/Votecloud2.png";
-import VoteCloud3 from "../../assets/Votecloud3.png";
-import VoteCloud4 from "../../assets/Votecloud4.png";
+import block1 from "../../assets/group11.png";
+import cloudBG from "../../assets/frame45.png";
+import VoteCloud1 from "../../assets/votecloud1.png";
+import VoteCloud2 from "../../assets/votecloud2.png";
+import VoteCloud3 from "../../assets/votecloud3.png";
+import VoteCloud4 from "../../assets/votecloud4.png";
 import Cliva from "../cliva/Cliva";
-import box from "../../assets/Rectangle 8.png";
-import XImg from "../../assets/Vector.png";
+import box from "../../assets/rectangle8.png";
+import XImg from "../../assets/vector.png";
 import Telegram from "../../assets/telegram-alt_svgrepo.com.png";
 
 export default function Hero() {

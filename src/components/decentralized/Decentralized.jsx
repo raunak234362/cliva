@@ -1,8 +1,8 @@
-import upperhead from "../../assets/2664 3.png";
-import lowerhead from "../../assets/2664 5.png";
-import MainBox from "../../assets/Frame 27 (1).png";
+import upperhead from "../../assets/topPlatform.png";
+import lowerhead from "../../assets/bottomPlatform.png";
+import MainBox from "../../assets/frame27.png";
 import BackgroundImg2 from "../../assets/2664.png";
-import ButterFly from "../../assets/IMG_4440.png";
+import ButterFly from "../../assets/img_4440.png";
 import Cliva from "../cliva/Cliva";
 
 const Decentralized = () => {

@@ -1,7 +1,7 @@
 import tree from "../../assets/rb_83615 1.png";
-import butterfly from "../../assets/Frame 39.png";
-import PieCha from "../../assets/Frame 34.png";
-import PieChart from "../../assets/Frame 35.png";
+import butterfly from "../../assets/frame39.png";
+import PieCha from "../../assets/frame34.png";
+import PieChart from "../../assets/frame35.png";
 const Wingonomics = () => {
   return (
     <div className="bg-[#4BB149] h-fit">
