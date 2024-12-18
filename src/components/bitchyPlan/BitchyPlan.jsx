@@ -20,8 +20,8 @@ const BitchyPlan = () => {
         {/*website view */}
         <div className='hidden md:block'>
         <div
-        className="text-[#EBE235] font-primaryRegular text-center md:text-3xl uppercase text-[1rem] font-bold mt-2 pt-10  p-5 pb-10"
-        style={{ WebkitTextStroke: "1px #F39734" , lineHeight:"2"}}
+        className="text-[#EBE235] font-primaryRegular text-center z-50 md:text-2xl uppercase text-[1rem] font-bold mt-2 pt-10  p-5 pb-10"
+        style={{ WebkitTextStroke: "1px #F39734" , }}
       >
         bitchy plan.. Roadmap!
       </div>
@@ -38,8 +38,8 @@ const BitchyPlan = () => {
 
       
 
-      <div className=" absolute top-0" style={{ marginTop: "-5%" }}>
-        <img src={LeftFlower} alt="" className=" w-[30%] z-100" />
+      <div className=" absolute top-0 md:-mt-10" >
+        <img src={LeftFlower} alt="" className=" lg:w-[30%] md:w-[20%] z-100" />
       </div>
 
       {/*------------------------------------first flight---------------------------- */}
@@ -51,15 +51,14 @@ const BitchyPlan = () => {
           style={{ marginTop: "5%" }}
         />
         <div
-          className="text-[#EBE235] font-primaryRegular absolute top-6 left-0 text-center md:text-2xl uppercase text-[1rem] font-bold mt-2  p-5 pb-10"
-          style={{ marginLeft: "10%", WebkitTextStroke: "1px #F39734" }}
+          className="text-[#EBE235] font-primaryRegular absolute top-6 left-10 lg:left-16 lg:top-10 text-center md:text-lg uppercase font-bold "
+          style={{ WebkitTextStroke: "1px #F39734" }}
         >
           first flight
         </div>
 
         <div
-          className=" absolute top-0 text-2xl font-secondRegular text-[#97E996]"
-          style={{ marginTop: "8%", marginLeft: "5%", lineHeight: "2" }}
+          className=" absolute top-14 left-8  lg:top-24 lg:left-12 lg:text-xl font-secondRegular text-[#97E996]"
         >
           <p>Website launch</p>
           <p>Community building</p>
@@ -68,19 +67,14 @@ const BitchyPlan = () => {
           <p>Creation of token contracts</p>
         </div>
 
-        <div>
-          <img src="" alt="" />
-        </div>
-
         <div
-          className=" flex justify-end absolute top-0 right-0"
-          style={{ marginTop: "-15%", marginRight: "5%" }}
+          className=" flex justify-end absolute -top-24 lg:-top-44 lg:right-5 right-0"
         >
           <img src={Earth} alt="" className=" w-[40%] z-100" />
         </div>
 
-        <div className=" absolute  top-5 left-0" style={{ marginLeft: "38%" }}>
-          <img src={RightFlower} alt="" />
+        <div className=" absolute  top-5 left-60 xl:left-[35%] lg:left-[32%] ">
+          <img src={RightFlower} alt="" className=" w-[60%] xl:w-auto lg:w-[80%]"/>
         </div>
       </div>
 
@@ -91,20 +85,18 @@ const BitchyPlan = () => {
         </div>
 
         <div
-          className="text-[#EBE235] font-primaryRegular absolute top-10 right-0  md:text-2xl uppercase text-[1rem] font-bold mt-2  p-5 pb-10"
+          className="text-[#EBE235] text-wrap w-[48%] xl:w-[40%] leading-8 font-primaryRegular absolute top-6 right-0  
+          uppercase  font-bold lg:top-10 lg:-right-8"
           style={{
-            marginRight: "10%",
             WebkitTextStroke: "1px #F39734",
-            lineHeight: "2",
           }}
         >
-          <p>Pollination: </p>
-          <p>Expanding the horizon</p>
+          Pollination: 
+          Expanding the horizon
         </div>
 
         <div
-          className=" absolute top-0 right-0 text-2xl font-secondRegular text-white"
-          style={{ marginTop: "12%", marginRight: "15%", lineHeight: "2" }}
+          className=" absolute top-24 right-8 font-secondRegular text-white lg:top-32 lg:right-20 lg:text-lg"
         >
           <p> Audits and public disclosure of smart contract</p>
           <p>Marketing using influential voices</p>
@@ -118,16 +110,15 @@ const BitchyPlan = () => {
       {/*----------------------------catterpillar-------------------------------------- */}
 
       <div className=" relative">
-        <div className=" flex justify-center" style={{ marginTop: "5%" }}>
+        <div className=" flex justify-center mt-20" >
           <img src={PinkShape} alt="" className=" w-[70%] " />
         </div>
 
         <div
-          className="text-[#EBE235] font-primaryRegular absolute top-10 md:text-2xl uppercase text-[1rem] font-bold mt-2  p-5 pb-10"
+          className="text-[#EBE235] font-primaryRegular leading-8 left-44 absolute top-10 uppercase  font-bold
+          lg:left-80 xl:left-96 "
           style={{
-            marginLeft: "30%",
             WebkitTextStroke: "1px #F39734",
-            lineHeight: "2",
           }}
         >
           <p>Swarming: </p>
@@ -135,21 +126,21 @@ const BitchyPlan = () => {
         </div>
 
         <div
-          className=" absolute top-0 text-2xl font-secondRegular text-[#F33B19]"
-          style={{ marginTop: "12%", marginLeft: "30%", lineHeight: "2" }}
+          className=" absolute top-24 left-44 font-secondRegular text-[#F33B19]
+          lg:left-80 xl:left-96 lg:text-lg lg:top-32"
         >
           <p>Vote-to-earn platform development</p>
           <p>Vote to Earn Mechanism:</p>
           <p>
-            Web3 crowdsourcing + gig economy + volunteering platform development
+            Web3 crowdsourcing + gig economy + volunteering platform 
           </p>
-          <p>DEX listings</p>
+          <p>development DEX listings</p>
           <p>Social cause drive & funding; driving real-life social impact</p>
         </div>
 
         <div
           className=" absolute top-0 right-0 flex justify-end"
-          style={{ marginTop: "-10%", marginRight: "10%" }}
+          style={{ marginTop: "-12%", marginRight: "10%" }}
         >
           <img src={Catterpillar} alt="" className=" w-[30%] " />
         </div>
