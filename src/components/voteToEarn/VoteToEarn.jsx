@@ -36,7 +36,7 @@ const VoteToEarn = () => {
             </div>
           </div>
           <div className="z-50">
-            <div className="md:absolute translate-x-48 -z-50 opacity-80 hidden md:block">
+            <div className="md:absolute md:translate-x-48 -z-50 opacity-80 hidden md:block">
               <img
                 src={BuVoting}
                 alt="voting"
