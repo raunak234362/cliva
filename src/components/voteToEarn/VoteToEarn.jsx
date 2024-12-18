@@ -11,7 +11,7 @@ const VoteToEarn = () => {
       </div>
       <div className=" justify-evenly font-primaryRegular bg-[#5CBBFF]">
         <div className="flex md:flex-row flex-col justify-around">
-          <div className="z-50 flex justify-center items-center flex-col gap-10 my-6">
+          <div className="z-50 w-full flex justify-center items-center flex-col gap-10 my-6">
             <div
               className="col-span-2 text-[#228EFD] sm:md:text-lg md:xl:text-3xl"
               style={{
@@ -35,19 +35,19 @@ const VoteToEarn = () => {
               <Cliva />
             </div>
           </div>
-          <div className="z-50">
+          <div className="z-50 w-full overflow-x-hidden">
             <div className="md:absolute md:translate-x-48 -z-50 opacity-80 hidden md:block">
               <img
                 src={BuVoting}
                 alt="voting"
-                className="object-contain h-72"
+                className="object-contain h-48"
               />
             </div>
             <div className="z-50 lg:pt-40 md:pt-">
               <img
                 src={clivavotinf}
                 alt="Butterfly"
-                className="w-full md:h-[40vh] lg: object-contain"
+                className="w-full md:h-full lg: object-contain"
               />
             </div>
           </div>
