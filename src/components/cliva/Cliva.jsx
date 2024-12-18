@@ -8,7 +8,7 @@ const Cliva = () => {
           color: "#fff",
           borderRadius: "10px",
           textShadow:
-            "1px 1px 1px #228EFD, 1px 1px -1px #228EFD",
+            "2px 2px 5px #228EFD, -2px -2px 5px #228EFD, 2px -2px 5px #228EFD, -2px 2px 5px #228EFD",
         }}
       >
         JOIN $CLIVA
