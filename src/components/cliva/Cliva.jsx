@@ -1,9 +1,9 @@
 const Cliva = () => {
   return (
-    <div className="w-fit cursor-pointer">
+    <div className="w-fit cursor-pointer flex justify-center items-center">
       <a
       href="https://in.pinterest.com/"
-        className="bg-[#FFA1C6] border-[#EE0A73] text-[8px] font-primaryRegular border-4 px-5 py-2 rounded-3xl"
+        className=" text-[10px] font-primaryRegular bg-[#FFA1C6] border-[#EE0A73]  border-4 px-3 py-2"
         style={{
           color: "#fff",
           borderRadius: "10px",

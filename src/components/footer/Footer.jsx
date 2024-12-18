@@ -1,5 +1,5 @@
 import box from "../../assets/rectangle8.png";
-import XImg from "../../assets/Vector.png";
+import XImg from "../../assets/vector.png";
 import Telegram from "../../assets/telegram-alt_svgrepo.com.png";
 import fly from "../../assets/frame17.png";
 const Footer = () => {
@@ -33,13 +33,13 @@ const Footer = () => {
               backgroundPosition: "center",
             }}
           >
-            <div className="absolute flex items-center gap-6 md:gap-8 lg:gap-10 xl:gap-8">
+            <div className="absolute flex items-center gap-6 md:gap-4 lg:gap-6 xl:gap-8">
               <a href="https://x.com/home">
-                <img src={XImg} alt="" className="w-6 md:w-8" />
+                <img src={XImg} alt="" className="w-5 md:w-5" />
               </a>
 
               <a href="https://telegram.com/">
-                <img src={Telegram} alt="" className="w-6 md:w-8" />
+                <img src={Telegram} alt="" className="w-10 md:w-10" />
               </a>
             </div>
           </div>

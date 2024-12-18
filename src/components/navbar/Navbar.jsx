@@ -10,7 +10,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-[#8AC9FF] text-sm font-primaryRegular shadow-md top-0 z-50 overflow-x-hidden">
+    <nav className="bg-[#8AC9FF] text-sm font-primaryRegular shadow-md w-full top-0 z-50 overflow-x-hidden">
       <div className="max-w-screen-xl mx-auto flex items-center justify-between px-4 py-3 md:px-6 lg:px-8">
         {/* Logo */}
         <div>
@@ -69,16 +69,18 @@ const Navbar = () => {
               </li>
             ))}
           </ul>
-          <div className="mt-4 md:mt-0 md:ml-4">
-            <button
-              type="button"
-              className="text-[12px] md:text-[14px] lg:text-[16px] text-[#EE0A73] bg-[#FFA1C6] hover:bg-[#EE0A73] hover:text-[#FFA1C6] px-4 py-2 rounded-lg border-2 border-[#EE0A73] transition-colors duration-200"
-              style={{
-                textShadow: "2px 2px #EE0A73",
-              }}
-            >
-              BUY NOW
-            </button>
+          <div className="mt-4 md:mt-0 md:ml-4 ">
+            <div className="flex justify-center ">
+              <button
+                type="button"
+                className="text-[12px] md:text-[14px] lg:text-[16px] text-[#EE0A73] bg-[#FFA1C6] hover:bg-[#EE0A73] hover:text-[#FFA1C6] px-4 py-2 rounded-lg border-2 border-[#EE0A73] transition-colors duration-200"
+                style={{
+                  textShadow: "2px 2px #fff",
+                }}
+              >
+                BUY NOW
+              </button>
+            </div>
           </div>
         </div>
       </div>

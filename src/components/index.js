@@ -7,12 +7,14 @@ import Cliva from "./cliva/Cliva";
 import Footer from "./footer/Footer";
 import Wingonomics from "./wingonomics/Wingonomics";
 import Wingoarena from "./wingoarena/Wingoarena";
+import XT from "./cliva/XT";
 export {
   Wingoarena,
   Wingonomics,
   Footer,
   Cliva,
   Hero,
+  XT,
   Navbar,
   Layout,
   VoteToEarn,
