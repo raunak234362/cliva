@@ -1,5 +1,5 @@
 import box from "../../assets/rectangle8.png";
-import XImg from "../../assets/vector.png";
+import XImg from "../../assets/Vector.png";
 import Telegram from "../../assets/telegram-alt_svgrepo.com.png";
 import fly from "../../assets/frame17.png";
 const Footer = () => {
