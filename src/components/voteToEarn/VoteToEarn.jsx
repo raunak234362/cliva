@@ -1,6 +1,6 @@
-import BuVoting from "../../../public/rb_214.png"; // Replace with your butterfly image path
-import clivavotinf from "../../../public/img_4442.png"; // Replace with your Join Cliva image path
-import cloud2 from "../../../public/cloud2.png";
+import BuVoting from "../../assets/rb_214.png"; // Replace with your butterfly image path
+import clivavotinf from "../../assets/img_4442.png"; // Replace with your Join Cliva image path
+import cloud2 from "../../assets/cloud2.png";
 import Cliva from "../cliva/Cliva";
 
 const VoteToEarn = () => {

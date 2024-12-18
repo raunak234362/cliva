@@ -1,5 +1,5 @@
 import { useState } from "react";
-import frame17 from "../../../public/frame17.png";
+import frame17 from "../../assets/frame17.png";
 import { NavLink } from "react-router-dom";
 
 const Navbar = () => {

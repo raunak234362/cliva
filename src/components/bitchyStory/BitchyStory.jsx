@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Bottom from '../../assets/bottom.png'
 import BitchyBg from "../../assets/bitchy_background.png"
 import BlueShape from "../../assets/blueShape.png"

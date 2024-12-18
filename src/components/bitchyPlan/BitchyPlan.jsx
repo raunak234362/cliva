@@ -1,16 +1,16 @@
-import GreenShape from "../../../public/greenShape.png";
-import LeftFlower from "../../../public/flower_left.png";
-import RightFlower from "../../../public/flower_right.png";
-import Earth from "../../../public/earth.png";
-import BlueShape01 from "../../../public/blueShape_01.png";
-import Branch from "../../../public/branch.png";
-import Catterpillar from "../../../public/catterpiller.png";
-import PinkShape from "../../../public/pinkShape.png";
-import LeaveBg from "../../../public/leave_bg.png";
-import Grass from "../../../public/grass.png";
-import BlueShapeMd from "../../../public/blueShape_md_02.png";
-import GreenShapeMd from "../../../public/greenShape_md.png";
-import PinkShapeMd from "../../../public/pinkShape_md.png";
+import GreenShape from "../../assets/greenShape.png";
+import LeftFlower from "../../assets/flower_left.png";
+import RightFlower from "../../assets/flower_right.png";
+import Earth from "../../assets/earth.png";
+import BlueShape01 from "../../assets/blueShape_01.png";
+import Branch from "../../assets/branch.png";
+import Catterpillar from "../../assets/catterpiller.png";
+import PinkShape from "../../assets/pinkShape.png";
+import LeaveBg from "../../assets/leave_bg.png";
+import Grass from "../../assets/grass.png";
+import BlueShapeMd from "../../assets/blueShape_md_02.png";
+import GreenShapeMd from "../../assets/greenShape_md.png";
+import PinkShapeMd from "../../assets/pinkShape_md.png";
 
 const BitchyPlan = () => {
   return (

@@ -1,9 +1,9 @@
 
-import upperhead from "../../../public/topPlatform.png";
-import lowerhead from "../../../public/bottomPlatform.png";
-import MainBox from "../../../public/frame27.png";
-import BackgroundImg2 from "../../../public/2664.png";
-import ButterFly from "../../../public/img_4440.png";
+import upperhead from "../../assets/topPlatform.png";
+import lowerhead from "../../assets/bottomPlatform.png";
+import MainBox from "../../assets/frame27.png";
+import BackgroundImg2 from "../../assets/2664.png";
+import ButterFly from "../../assets/img_4440.png";
 import Cliva from "../cliva/Cliva";
 
 const Decentralized = () => {
