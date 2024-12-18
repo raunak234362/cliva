@@ -56,7 +56,7 @@ export default function Hero() {
           {/* Supporting Text */}
           <div className="mt-10 text-[#fff] md:text-[15px] lg:text-[20px] text-sm text-center justify-center items-center flex flex-col gap-3 z-20">
             <p className="tracking-wide font-secondRegular">
-              <span className="font-primaryRegular text-[12px] md:text-2xl">
+              <span className="font-primaryRegular">
                 EMPOWERING
               </span>{" "}
               the true believers of decentralization.
