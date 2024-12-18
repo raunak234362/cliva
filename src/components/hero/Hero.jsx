@@ -29,7 +29,7 @@ export default function Hero() {
         <div className="z-10 flex flex-col py-20 items-center justify-center">
           {/* Heading Text */}
           <div
-            className="flex flex-col justify-center items-center text-center text-[10px] md:text-[12px] lg:text-[15px] xl:text-[20px] tracking-[2px] md:tracking-[6px] z-10 gap-5"
+            className="flex flex-col justify-center items-center text-center text-[10px] md:text-[12px] lg:text-[15px] xl:text-[20px] tracking-[2px] md:tracking-[8px] z-10 gap-5"
             style={{
               color: "#228EFD",
               borderRadius: "10px",
