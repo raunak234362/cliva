@@ -9,7 +9,7 @@ import VoteCloud2 from "../../assets/votecloud2.png";
 import VoteCloud3 from "../../assets/votecloud3.png";
 import VoteCloud4 from "../../assets/votecloud4.png";
 import Cliva from "../cliva/Cliva";
-import XImg from "../../assets/vector.png";
+import XImg from "../../assets/Vector.png";
 import Telegram from "../../assets/telegram-alt_svgrepo.com.png";
 
 export default function Hero() {
