@@ -1,18 +1,18 @@
 /* eslint-disable no-unused-vars */
-import ButterflyImg from "../../assets/rb_21.png";
-import JoinClivaImg from "../../assets/Frame44.png";
-import Cloud from "../../assets/cloud1.png";
-import Cloud2 from "../../assets/cloud2.png";
-import block1 from "../../assets/group11.png";
-import cloudBG from "../../assets/frame45.png";
-import VoteCloud1 from "../../assets/votecloud1.png";
-import VoteCloud2 from "../../assets/votecloud2.png";
-import VoteCloud3 from "../../assets/votecloud3.png";
-import VoteCloud4 from "../../assets/votecloud4.png";
+import ButterflyImg from "../../../public/rb_21.png";
+import JoinClivaImg from "../../../public/Frame44.png";
+import Cloud from "../../../public/cloud1.png";
+import Cloud2 from "../../../public/cloud2.png";
+import block1 from "../../../public/group11.png";
+import cloudBG from "../../../public/frame45.png";
+import VoteCloud1 from "../../../public/votecloud1.png";
+import VoteCloud2 from "../../../public/votecloud2.png";
+import VoteCloud3 from "../../../public/votecloud3.png";
+import VoteCloud4 from "../../../public/votecloud4.png";
 import Cliva from "../cliva/Cliva";
-import box from "../../assets/rectangle8.png";
-import XImg from "../../assets/vector.png";
-import Telegram from "../../assets/telegram-alt_svgrepo.com.png";
+import box from "../../../public/rectangle8.png";
+import XImg from "../../../public/vector.png";
+import Telegram from "../../../public/telegram-alt_svgrepo.com.png";
 
 export default function Hero() {
   return (

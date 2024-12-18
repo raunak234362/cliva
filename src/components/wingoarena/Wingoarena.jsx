@@ -1,9 +1,8 @@
-import React from "react";
-import Road from "../../assets/road.png";
-import ButterflyCastle from "../../assets/butterfly_castle_03.png";
-import Logo from "../../assets/logo_wingo.png";
+
+import ButterflyCastle from "../../../public/butterfly_castle_03.png";
+import Logo from "../../../public/logo_wingo.png";
 import Cliva from "../cliva/Cliva";
-import ButterflyMobile from "../../assets/butterfly_001.png"
+import ButterflyMobile from "../../../public/butterfly_001.png"
 const Wingoarena = () => {
   return (
     <div className="bg-[#FFD28A] h-full w-[100vw] relative ">

@@ -1,16 +1,16 @@
-import Bottom from "../../assets/bottom.png";
-import BitchyBg from "../../assets/bitchy_background.png";
-import BlueShape from "../../assets/blueShape.png";
-import YellowShape from "../../assets/yellowShape.png";
-import RedShape from "../../assets/redShape.png";
-import Logo from "../../assets/logo_wingo.png";
-import BitchyInsect from "../../assets/bitchyInsect.png";
+import Bottom from "../../../public/bottom.png";
+import BitchyBg from "../../../public/bitchy_background.png";
+import BlueShape from "../../../public/blueShape.png";
+import YellowShape from "../../../public/yellowShape.png";
+import RedShape from "../../../public/redShape.png";
+import Logo from "../../../public/logo_wingo.png";
+import BitchyInsect from "../../../public/bitchyInsect.png";
 import Cliva from "../cliva/Cliva";
-import BitchyBgMobile from "../../assets/bitchy_mobile.png";
-import BlueShapeMd from "../../assets/blueShape_md.png";
-import YellowShapeMd from "../../assets/yellowShape_md.png";
-import RedShapeMd from "../../assets/redShape_md.png";
-import BitchyGrass from "../../assets/bitchy_grass.png";
+import BitchyBgMobile from "../../../public/bitchy_mobile.png";
+import BlueShapeMd from "../../../public/blueShape_md.png";
+import YellowShapeMd from "../../../public/yellowShape_md.png";
+import RedShapeMd from "../../../public/redShape_md.png";
+import BitchyGrass from "../../../public/bitchy_grass.png";
 
 const BitchyStory = () => {
   return (
