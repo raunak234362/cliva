@@ -14,7 +14,7 @@ import PinkShapeMd from "../../assets/pinkShape_md.png";
 
 const BitchyPlan = () => {
   return (
-    <div className=" relative bg-[#4BB149] h-fit">
+    <div className=" relative bg-[#4BB149] h-fit text-sm pb-16">
       {/*website view */}
       <div className="hidden md:block">
         <div
@@ -49,7 +49,7 @@ const BitchyPlan = () => {
           style={{ marginTop: "5%" }}
         />
         <div
-          className="text-[#EBE235] font-primaryRegular absolute top-6 left-10 lg:left-16 lg:top-10 text-center md:text-lg uppercase font-bold "
+          className="text-[#EBE235] font-primaryRegular absolute top-6 left-10 lg:left-16 lg:top-10 text-center  uppercase font-bold "
           style={{ WebkitTextStroke: "1px #F39734" }}
         >
           first flight
@@ -83,18 +83,18 @@ const BitchyPlan = () => {
           </div>
 
         <div
-          className="text-[#EBE235] text-wrap w-[48%] xl:w-[40%] leading-8 font-primaryRegular absolute top-6 right-0  
+          className="text-[#EBE235] text-wrap w-[48%] xl:w-[40%] leading-8 font-primaryRegular absolute top-6 -right-5  
           uppercase  font-bold lg:top-10 lg:-right-8"
           style={{
             WebkitTextStroke: "1px #F39734",
           }}
         >
           Pollination: 
-          Expanding the horizon
+          <p>Expanding the horizon</p>
         </div>
 
         <div
-          className=" absolute top-24 right-8 font-secondRegular text-white lg:top-32 lg:right-20 lg:text-lg"
+          className=" absolute top-24 right-14 font-secondRegular text-white lg:top-32 lg:right-20 lg:text-lg"
         >
           <p> Audits and public disclosure of smart contract</p>
           <p>Marketing using influential voices</p>
@@ -113,7 +113,7 @@ const BitchyPlan = () => {
         </div>
 
         <div
-          className="text-[#EBE235] font-primaryRegular leading-8 left-44 absolute top-10 uppercase  font-bold
+          className="text-[#EBE235] font-primaryRegular leading-8 left-48 absolute top-6 uppercase  font-bold
           lg:left-80 xl:left-96 "
           style={{
             WebkitTextStroke: "1px #F39734",
