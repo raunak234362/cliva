@@ -145,7 +145,7 @@ export default function Hero() {
         </div>
         <div className=" w-full flex flex-col justify-center items-center">
           <div
-            className="flex justify-center items-end h-[50vh] w-96 py-4 z-50"
+            className="flex absolute justify-center items-end h-96 w-96 py-4 z-50"
             style={{
               backgroundImage: `url(${block1})`,
               backgroundSize: "contain",
@@ -153,7 +153,7 @@ export default function Hero() {
               backgroundPosition: "center",
             }}
           >
-            <div className="absolute md:-translate-y-5 translate-y-5 flex items-center gap-6 md:gap-4 lg:gap-6 xl:gap-8">
+            <div className="absolute flex items-center gap-6 md:gap-4 lg:gap-6 xl:gap-8">
               <a href="">
                 <img src={XImg} alt="" className="w-5 md:w-5" />
               </a>
