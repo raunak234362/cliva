@@ -14,7 +14,7 @@ import Telegram from "../../assets/telegram-alt_svgrepo.com.png";
 
 export default function Hero() {
   return (
-    <div className="bg-[#5CBBFF] w-full">
+    <div className="bg-[#5CBBFF] w-full h-fit-content relative">
       <div>
         <img
           src={ButterflyImg}
@@ -169,7 +169,7 @@ export default function Hero() {
           <img src={Cloud2} alt="Cloud2" />
         </div>
 
-        <div className="absolute w-full md:bottom-[10vh] lg:bottom-[15vh] xl:bottom-[0vh] sm:hidden md:block">
+        <div className="absolute object-bottom w-full sm:hidden md:block md:bottom-0 ">
           <img src={Cloud} alt="Cloud" />
         </div>
       </div>
