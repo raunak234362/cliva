@@ -71,7 +71,7 @@ export default function Hero() {
         <div className=" md:hidden flex flex-col-reverse justify-center items-center z-10">
           <div className="sm:flex sm:flex-col gap-3 my-12">
             <div
-              className="md:absolute md:max-xl:-translate-y-20 md:translate-x-32 md:max-xl:h-96 md:max-xl:w-44 h-32 w-64"
+              className="md:absolute flex justify-center items-center md:max-xl:-translate-y-20 md:translate-x-32 md:max-xl:h-96 md:max-xl:w-44 h-32 w-64"
               style={{
                 backgroundImage: `url(${VoteCloud2})`,
                 backgroundSize: "contain",
@@ -79,12 +79,12 @@ export default function Hero() {
                 backgroundPosition: "center",
               }}
             >
-              <div className="font-primaryRegular tracking-widest translate-y-20 text-center sm:md:text-[6px] text-[8px] text-[#fff]">
+              <div className="font-primaryRegular tracking-widest text-center sm:md:text-[6px] text-[8px] text-[#fff]">
                 UNITE GLOBALLY <br /> WITH NO-BARRIERS
               </div>
             </div>
             <div
-              className="md:absolute md:translate-y-32 md:w-28 h-32 w-64 text-center"
+              className="md:absolute flex justify-center items-center md:translate-y-32 md:w-28 h-32 w-64 text-center"
               style={{
                 backgroundImage: `url(${VoteCloud1})`,
                 backgroundSize: "contain",
@@ -92,13 +92,13 @@ export default function Hero() {
                 backgroundPosition: "center",
               }}
             >
-              <div className="font-primaryRegular md:translate-y-20 translate-y-16 md:-translate-x-5 text-[10px] text-[#14589D]">
+              <div className="font-primaryRegular md:-translate-x-5 text-[10px] text-[#14589D]">
                 VOTE FOR <br /> DECISION-MAKING
               </div>
             </div>
 
             <div
-              className="md:absolute md:translate-x-64 md:w-28 h-32 w-64"
+              className="md:absolute flex justify-center items-center md:translate-x-64 md:w-28 h-32 w-64"
               style={{
                 backgroundImage: `url(${VoteCloud3})`,
                 backgroundSize: "contain",
@@ -106,12 +106,12 @@ export default function Hero() {
                 backgroundPosition: "center",
               }}
             >
-              <div className="font-primaryRegular absolute md:translate-y-20 translate-y-16 text-center translate-x-12 md:translate-x-7 text-[10px] text-[#fff]">
+              <div className="font-primaryRegular pt-4 absolute text-center text-[10px] text-[#fff]">
                 THE POWER IS IN <br /> YOUR HAND
               </div>
             </div>
             <div
-              className="md:absolute md:translate-y-52 md:translate-x-28 md:w-28 h-32 w-64"
+              className="md:absolute md:translate-y-52 flex justify-center items-center md:translate-x-28 md:w-28 h-32 w-64"
               style={{
                 backgroundImage: `url(${VoteCloud4})`,
                 backgroundSize: "contain",
@@ -119,7 +119,7 @@ export default function Hero() {
                 backgroundPosition: "center",
               }}
             >
-              <div className="font-primaryRegular md:translate-y-20 translate-y-16 translate-x-16 md:translate-x-16 text-[10px] text-[#14589D]">
+              <div className="font-primaryRegular pt-4 text-[10px] text-[#14589D]">
                 AND MORE...
               </div>
             </div>
