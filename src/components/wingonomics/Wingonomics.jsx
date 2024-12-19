@@ -16,7 +16,7 @@ const Wingonomics = () => {
           }}
         >
           <div
-            className="font-primaryRegular flex flex-col justify-center text-2xl md:text-2xl md:tracking-[8px] px-10 z-10 gap-5"
+            className="font-primaryRegular flex flex-col justify-center text-2xl md:text-xl md:tracking-[8px] px-10 z-10 gap-5"
             style={{
               color: "#FFF53D",
               borderRadius: "10px",
@@ -85,7 +85,7 @@ const Wingonomics = () => {
                 <img src={butterfly} alt="" />
               </div>
             </div>
-            <div className="md:-mt-52">
+            <div className="md:-mt-44">
               <div>
                 <img src={PieCha} alt="" className="md:block hidden" />
                 <img src={PieChart} alt="" className="md:hidden block" />
