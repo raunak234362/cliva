@@ -67,9 +67,9 @@ export default function Hero() {
       </div>
 
       {/* Image and Button Section */}
-      <div className="flex flex-col-reverse gap-5 z-50 md:flex-row md:justify-between">
+      <div className="flex h-full flex-col-reverse gap-5 z-50 md:flex-row md:justify-between">
         <div className=" md:hidden flex flex-col-reverse justify-center items-center z-10">
-          <div className="sm:max-md:flex sm:max-md:flex-col gap-3 my-12">
+          <div className="sm:flex sm:flex-col gap-3 my-12">
             <div
               className="md:absolute md:max-xl:-translate-y-20 md:translate-x-32 md:max-xl:h-96 md:max-xl:w-44 h-32 w-64"
               style={{
@@ -124,11 +124,11 @@ export default function Hero() {
               </div>
             </div>
           </div>
-          <div className="z-50 md:absolute sm:md:hidden">
+          <div className="z-50 md:hidden block ">
             <Cliva />
           </div>
         </div>
-        <div className="z-50 w-full">
+        <div className="z-50 w-full hidden md:block">
           <div
             className="w-[50vw] h-[50vh] z-50 md:flex hidden md:justify-center md:items-center"
             style={{
@@ -138,14 +138,14 @@ export default function Hero() {
               backgroundPosition: "center",
             }}
           >
-            <div className="absolute lg:-translate-y-8 md:-translate-y-7 translate-x-6 z-50">
+           <div className="absolute lg:-translate-y-8 md:-translate-y-7 translate-x-6 z-50">
               <Cliva className="" />
             </div>
           </div>
         </div>
         <div className=" w-full flex flex-col justify-center items-center">
           <div
-            className="flex absolute justify-center items-end h-96 w-96 py-4 z-50"
+            className="flex justify-center items-end h-96 w-96 py-4 z-50"
             style={{
               backgroundImage: `url(${block1})`,
               backgroundSize: "contain",
@@ -169,7 +169,7 @@ export default function Hero() {
           <img src={Cloud2} alt="Cloud2" />
         </div>
 
-        <div className="absolute xl:translate-y-0 lg:translate-y-96 md:translate-y-96 hidden md:block">
+        <div className="absolute w-full md:bottom-[10vh] lg:bottom-[15vh] xl:bottom-[0vh] sm:hidden md:block">
           <img src={Cloud} alt="Cloud" />
         </div>
       </div>

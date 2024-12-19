@@ -36,10 +36,10 @@ const BitchyStory = () => {
     <div className="absolute top-0 md:mt-20 md:ml-[70%] " >
         <img src={Logo} alt="" className=' w-[80%]'/>
     </div>
-    <div className="absolute z-50 bottom-0 left-0 md:mb-32 md:ml-20 lg:mb-44 lg:ml-40">
-        <img src={BitchyInsect} alt="" className='w-[30%] md:w-[25%]'/>
+    <div className="absolute z-50 bottom-0 left-0 md:mb-28 md:ml-20 lg:ml-32">
+        <img src={BitchyInsect} alt="" className='w-[30%] md:w-[18%]'/>
     </div>
-    <div className="absolute bottom-0 left-0 z-50" style={{marginBottom: "23%", marginLeft:"27%"}}>
+    <div className="absolute bottom-0 left-0 z-50" style={{marginBottom: "20%", marginLeft:"30%"}}>
         <Cliva/>
     </div>
     <div>
@@ -75,7 +75,7 @@ const BitchyStory = () => {
       <div className=' flex justify-center'>
         <img src={RedShape} alt="" className=" w-[60%] absolute bottom-0 md:mb-6 " />
         <div className=" absolute bottom-0 text-white  font-secondRegular text-center" >
-        <p className=' font-primaryRegular md:text-sm  uppercase ' style={{WebkitTextStroke: "1px #228EFD"}}>NEW ARENA IS AT THE FRONTIER  </p>
+        <p className=' font-primaryRegular md:text-[12px]  uppercase ' style={{WebkitTextStroke: "1px #228EFD"}}>NEW ARENA IS AT THE FRONTIER  </p>
         <div className=' text-center pt-4  md:mb-12 lg:mb-14'>
             <p>As she gazed over the land she had planned to </p>
             <p>Reshape, Cliva smiled.</p>
@@ -134,7 +134,7 @@ const BitchyStory = () => {
       <div>
         <img src={RedShapeMd} alt="" />
         <div className=" absolute bottom-0 text-white  font-secondRegular text-center" style={{marginBottom:"100%"}} >
-        <p className=' font-primaryRegular ' style={{WebkitTextStroke: "1px #228EFD", lineHeight:"2"}}>NEW ARENA IS AT THE FRONTIER  </p>
+        <div className=' font-primaryRegular ' style={{WebkitTextStroke: "1px #228EFD", lineHeight:"2"}}>NEW ARENA IS AT THE FRONTIER  </div>
         <div className=' text-center pt-4 '>
             <p>As she gazed over the land she had planned to </p>
             <p>Reshape, Cliva smiled.</p>
