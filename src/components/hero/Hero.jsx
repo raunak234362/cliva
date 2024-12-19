@@ -19,7 +19,7 @@ export default function Hero() {
         <img
           src={ButterflyImg}
           alt="Butterfly"
-          className="md:xl:hidden sm:md:block w-full z-0 opacity-70 absolute object-contain h-96 object-left-top"
+          className="hidden md:block w-full z-0 opacity-70 absolute object-contain h-96 object-left-top"
         />
         <img
           src={Cloud2}
@@ -54,10 +54,8 @@ export default function Hero() {
           {/* Supporting Text */}
           <div className="mt-10 text-[#fff] md:text-[15px] lg:text-[20px] text-sm text-center justify-center items-center flex flex-col gap-3 z-20">
             <p className="tracking-wide font-secondRegular">
-              <span className="font-primaryRegular">
-                EMPOWERING
-              </span>{" "}
-              the true believers of decentralization.
+              <span className="font-primaryRegular">EMPOWERING</span> the true
+              believers of decentralization.
             </p>
             <p className="tracking-wide font-secondRegular">
               <span className="font-primaryRegular">BITCHY CLIVA</span> brings
@@ -130,17 +128,19 @@ export default function Hero() {
             <Cliva />
           </div>
         </div>
-        <div
-          className="w-96 h-96 z-50 md:flex hidden md:justify-center md:items-center"
-          style={{
-            backgroundImage: `url(${cloudBG})`,
-            backgroundSize: "contain",
-            backgroundRepeat: "no-repeat",
-            backgroundPosition: "center",
-          }}
-        >
-          <div className="absolute h-16 translate-x-3 z-50">
-            <Cliva className=""/>
+        <div className="z-50 w-full">
+          <div
+            className="w-[50vw] h-[50vh] z-50 md:flex hidden md:justify-center md:items-center"
+            style={{
+              backgroundImage: `url(${cloudBG})`,
+              backgroundSize: "contain",
+              backgroundRepeat: "no-repeat",
+              backgroundPosition: "center",
+            }}
+          >
+            <div className="absolute lg:-translate-y-8 md:-translate-y-7 translate-x-6 z-50">
+              <Cliva className="" />
+            </div>
           </div>
         </div>
         <div className=" flex flex-col justify-center items-center">
@@ -169,7 +169,7 @@ export default function Hero() {
           <img src={Cloud2} alt="Cloud2" />
         </div>
 
-        <div className="absolute xl:translate-y- lg:-translate-y- md:translate-y-48 hidden md:block">
+        <div className="absolute xl:translate-y-0 lg:translate-y-96 md:translate-y-96 hidden md:block">
           <img src={Cloud} alt="Cloud" />
         </div>
       </div>
