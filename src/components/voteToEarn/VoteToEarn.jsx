@@ -43,7 +43,7 @@ const VoteToEarn = () => {
               <img
                 src={BuVoting}
                 alt="voting"
-                className="object-contain md:w-[20vh] lg:[20vh] xl:w-[40vh] xl:h-[40vh]"
+                className="object-contain w-[20vw] md:w-[30vw] lg:[20vh] xl:w-[40vw] xl:h-[40vh]"
               />
             </div>
             <div className="z-50 lg:pt-40 ">
