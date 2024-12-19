@@ -49,14 +49,16 @@ const BitchyPlan = () => {
           style={{ marginTop: "5%" }}
         />
         <div
-          className="text-[#EBE235] font-primaryRegular absolute top-6 left-10 lg:left-16 lg:top-10 text-center  uppercase font-bold "
+          className="text-[#EBE235] font-primaryRegular absolute top-6 left-10 lg:left-16 lg:top-10 text-center  uppercase font-bold 
+          xl:text-xl xl:ml-8"
           style={{ WebkitTextStroke: "1px #F39734" }}
         >
           first flight
         </div>
 
         <div
-          className=" absolute top-14 left-8  lg:top-24 lg:left-12 lg:text-xl font-secondRegular text-[#97E996]"
+          className=" absolute top-14 left-8  lg:top-24 lg:left-12 lg:text-xl font-secondRegular text-[#97E996]
+          xl:text-2xl"
         >
           <p>Website launch</p>
           <p>Community building</p>
@@ -84,7 +86,7 @@ const BitchyPlan = () => {
 
         <div
           className="text-[#EBE235] text-wrap w-[48%] xl:w-[40%] leading-8 font-primaryRegular absolute top-6 -right-5  
-          uppercase  font-bold lg:top-10 lg:-right-8"
+          uppercase  font-bold lg:top-10 lg:-right-8 xl:text-xl xl:leading-10 xl:right-10"
           style={{
             WebkitTextStroke: "1px #F39734",
           }}
@@ -94,7 +96,8 @@ const BitchyPlan = () => {
         </div>
 
         <div
-          className=" absolute top-24 right-14 font-secondRegular text-white lg:top-32 lg:right-20 lg:text-lg"
+          className=" absolute top-24 right-14 font-secondRegular text-white lg:top-32 lg:right-20 lg:text-lg
+          xl:text-2xl xl:right-36 xl:top-40" 
         >
           <p> Audits and public disclosure of smart contract</p>
           <p>Marketing using influential voices</p>
@@ -114,7 +117,7 @@ const BitchyPlan = () => {
 
         <div
           className="text-[#EBE235] font-primaryRegular leading-8 left-48 absolute top-6 uppercase  font-bold
-          lg:left-80 xl:left-96 "
+          lg:left-80  xl:left-96 xl:top-12 xl:text-xl xl:leading-10"
           style={{
             WebkitTextStroke: "1px #F39734",
           }}
@@ -125,7 +128,7 @@ const BitchyPlan = () => {
 
         <div
           className=" absolute top-24 left-44 font-secondRegular text-[#F33B19]
-          lg:left-80 xl:left-96 lg:text-lg lg:top-32"
+          lg:left-80 xl:left-96 lg:text-lg lg:top-32 xl:text-2xl xl:top-40"
         >
           <p>Vote-to-earn platform development</p>
           <p>Vote to Earn Mechanism:</p>
@@ -163,7 +166,7 @@ const BitchyPlan = () => {
         <div className="md:hidden block relative">
           <img src={GreenShapeMd} alt="" />
           <div
-            className="text-[#EBE235] font-primaryRegular absolute top-6 left-0 text-center text-[1.3rem] uppercase font-bold mt-8"
+            className="text-[#EBE235] font-primaryRegular absolute top-6 left-0 text-center text-lg uppercase font-bold mt-8"
             style={{ marginLeft: "5%", WebkitTextStroke: "1px #F39734" }}
           >
             first flight
@@ -184,13 +187,12 @@ const BitchyPlan = () => {
         </div>
         {/*--------------------Mobile: pollination--------------------------- */}
         <div className="relative md:hidden block " style={{ marginTop: "60%" }}>
-          <img src={BlueShapeMd} alt="" />
+          <img src={BlueShapeMd} alt="" className="w-full max-sm:h-[280px]"/>
           <div
-            className="text-[#EBE235] font-primaryRegular absolute top-5 uppercase font-bold mt-5"
+            className="text-[#EBE235] font-primaryRegular leading-8 absolute top-3 text-lg uppercase font-bold mt-5"
             style={{
               marginLeft: "10%",
               WebkitTextStroke: "1px #F39734",
-              lineHeight: "2",
             }}
           >
             <p>Pollination: </p>
@@ -198,7 +200,7 @@ const BitchyPlan = () => {
           </div>
 
           <div
-            className=" absolute top-32 left-5 leading-8 font-secondRegular text-white"
+            className=" absolute top-36 left-8 leading-8 font-secondRegular text-white"
           >
             <p> Audits and public disclosure of smart contract</p>
             <p>Marketing using influential voices</p>
@@ -214,7 +216,7 @@ const BitchyPlan = () => {
           className=" relative md:hidden block"
           style={{ marginTop: "-30%" }}
         >
-          <img src={PinkShapeMd} alt="" />
+          <img src={PinkShapeMd} alt="" className="w-full max-sm:h-[360px]"/>
           <div
             className="text-[#EBE235] font-primaryRegular absolute top-10 left-8 uppercase text-[1.1rem] font-bold mt-4 "
             style={{
@@ -227,8 +229,7 @@ const BitchyPlan = () => {
           </div>
 
           <div
-            className=" absolute bottom-0 font-secondRegular text-[#F33B19]"
-            style={{ marginBottom: "20%", marginLeft: "8%", lineHeight: "2" }}
+            className=" absolute bottom-14 leading-6 left-8 font-secondRegular text-[#F33B19]"
           >
             <p>Vote-to-earn platform development</p>
             <p>Vote to Earn Mechanism:</p>

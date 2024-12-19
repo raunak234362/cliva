@@ -7,11 +7,12 @@ const Wingoarena = () => {
     <div className="bg-[#FFD28A] h-full w-[100vw] relative ">
       {/*website view */}
       <div className="hidden md:block">
-        <div className="absolute top-8 right-0 ">
+        <div className="absolute top-8 right-0  xl:top-36">
           <img src={Logo} alt="logo" className="w-[70%] " />
         </div>
         <div
-          className="font-secondRegular absolute lg:mr-[6%] lg:text-3xl mt-[30%] mr-[2%]  md:text-2xl  top-0 right-0 text-[#228EFD] text-center font-[1000]"
+          className="font-secondRegular absolute lg:mr-[6%] lg:text-3xl mt-[30%] mr-[2%]  md:text-2xl  top-0 right-0 text-[#228EFD] text-center font-[1000]
+          xl:text-[2.2rem] xl:leading-10"
           style={{
             WebkitTextStroke: "1px black",
             textShadow: "0 4px 4px rgba(0, 0, 0, 0.5)",
@@ -25,7 +26,7 @@ const Wingoarena = () => {
           <p> adoption.</p>
         </div>
 
-        <div className="absolute right-0 bottom-0 md:mb-48 mr-24 lg:mb-[20%] lg:mr-[16%]">
+        <div className="absolute right-0 bottom-0 md:mb-48 mr-24 lg:mb-[20%] lg:mr-[16%] xl:mb-[32%]">
           <Cliva />
         </div>
         {/* Butterfly Castle Image */}

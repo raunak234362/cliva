@@ -36,15 +36,17 @@ const BitchyStory = () => {
     <div className="absolute top-0 md:mt-20 md:ml-[70%] " >
         <img src={Logo} alt="" className=' w-[80%]'/>
     </div>
-    <div className="absolute z-50 bottom-0 left-0 md:mb-28 md:ml-20 lg:ml-32 lg:ml-48 lg:mb-44" >
-        <img src={BitchyInsect} alt="" className='w-[30%] md:w-[18%] lg:w-[20%]'/>
-    </div>
-    <div className="absolute bottom-0 left-0 z-50" style={{marginBottom: "20%", marginLeft:"30%"}}>
+    <div className="absolute z-50 bottom-0 left-0 md:mb-36 md:ml-24 lg:ml-30 lg:ml-48 lg:mb-44 xl:mb-64" >
+        <img src={BitchyInsect} alt="" className='w-[30%] md:w-[20%] lg:w-[20%] xl:w-[30%] '/>
+        <div className="absolute bottom-0 left-0 z-50 md:mb-6 md:ml-28 lg:mb-10 xl:mb-28 xl:ml-44">
         <Cliva/>
     </div>
+    </div>
+   
     <div>
         <img src={BlueShape} alt="" className=" w-[60%] absolute top-0 md:mt-32 lg:mt-44"/>
-        <div className="text-wrap text-clip w-[40%] absolute top-0 text-white font-secondRegular text-sm md:mt-36 md:ml-2 lg:mt-52 lg:ml-6 lg:text-lg lg:leading-8 leading-8 " > 
+        <div className="text-wrap text-clip w-[40%] absolute top-0 text-white font-secondRegular text-sm 
+        md:mt-36 md:ml-2 lg:mt-52 lg:ml-6 lg:text-lg lg:leading-8 leading-8 xl:text-2xl xl:mt-60 xl:leading-10 " > 
        ...Until she flew deeper into the forest. Shattered by the
             view of disparity, exclusion, greed, and corruption. so on.
             Selfishness reigned, and flowers drooped  
@@ -55,12 +57,13 @@ const BitchyStory = () => {
     <div>
         <img src={YellowShape} alt="" className=" w-[70%] h-[40%] absolute top-0 right-0 md:mt-44 lg:mt-56" />  
        <div className=" absolute top-0 right-3 md:right-5  font-secondRegular text-right md:mt-48 lg:mt-64 lg:mr-2 lg:leading-8"  > 
-        <div className=' font-primaryRegular uppercase text-sm text-white' style={{WebkitTextStroke: "1px #228EFD"}} >
+        <div className=' font-primaryRegular uppercase text-sm text-white xl:text-xl' style={{WebkitTextStroke: "1px #228EFD"}} >
         <p >NO LONGER SHE WILL   </p>
         <p >BE A PASSIVE OBSERVER </p>
         </div>
         
-        <div className='text-[#FF0A0A] text-wrap w-[120%] lg:w-[150%] md:text-sm absolute lg:leading-6 right-2 lg:mt-5 lg:text-lg' >
+        <div className='text-[#FF0A0A] text-wrap w-[120%] lg:w-[150%] md:text-sm absolute lg:leading-6 right-2 lg:mt-5 lg:text-lg
+                 xl:text-2xl' >
             Cliva has to become bitchy Cliva to guide the promised gains to the
             world from decentralisation tech. True change could come without a
             system, without a structure where all voices could be heard. So, Cliva
@@ -75,8 +78,8 @@ const BitchyStory = () => {
       <div className=' flex justify-center'>
         <img src={RedShape} alt="" className=" w-[60%] absolute bottom-0 md:mb-6 " />
         <div className=" absolute bottom-0 text-white  font-secondRegular text-center" >
-        <p className=' font-primaryRegular md:text-[12px]  uppercase ' style={{WebkitTextStroke: "1px #228EFD"}}>NEW ARENA IS AT THE FRONTIER  </p>
-        <div className=' text-center pt-4  md:mb-12 lg:mb-14 lg:text-lg'>
+        <p className=' font-primaryRegular md:text-[12px]  uppercase xl:text-xl ' style={{WebkitTextStroke: "1px #228EFD"}}>NEW ARENA IS AT THE FRONTIER  </p>
+        <div className=' text-center pt-4  md:mb-12 lg:mb-14 lg:text-lg xl:mb-24 xl:text-2xl'>
             <p>As she gazed over the land she had planned to </p>
             <p>Reshape, Cliva smiled.</p>
         </div>
