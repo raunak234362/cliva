@@ -1,14 +1,14 @@
 const Cliva = () => {
   return (
-    <div className="w-fit cursor-pointer">
+    <div className="w-fit cursor-pointer flex justify-center items-center">
       <a
       href="https://in.pinterest.com/"
-        className="bg-[#FFA1C6] border-[#EE0A73] text-[8px] font-primaryRegular border-4 px-5 py-2 rounded-3xl"
+        className=" text-[8px] md:text[12px] lg:text-[13px] xl:text-[15px] font-primaryRegular bg-[#FFA1C6] border-[#EE0A73]  border-4 px-3 py-3"
         style={{
           color: "#fff",
           borderRadius: "10px",
           textShadow:
-            "2px 2px 5px #228EFD, -2px -2px 5px #228EFD, 2px -2px 5px #228EFD, -2px 2px 5px #228EFD",
+            "2px 2px 2px #228EFD, -2px -2px 2px #228EFD, 2px -2px 2px #228EFD, -2px 2px 2px #228EFD",
         }}
       >
         JOIN $CLIVA

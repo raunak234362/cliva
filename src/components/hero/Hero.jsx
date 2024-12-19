@@ -19,7 +19,7 @@ export default function Hero() {
         <img
           src={ButterflyImg}
           alt="Butterfly"
-          className="md:xl:hidden sm:md:block w-full z-0 opacity-70 absolute object-contain h-96 object-left-top"
+          className="hidden md:block w-full z-0 opacity-70 absolute object-contain h-96 object-left-top"
         />
         <img
           src={Cloud2}
@@ -54,10 +54,8 @@ export default function Hero() {
           {/* Supporting Text */}
           <div className="mt-10 text-[#fff] md:text-[15px] lg:text-[20px] text-sm text-center justify-center items-center flex flex-col gap-3 z-20">
             <p className="tracking-wide font-secondRegular">
-              <span className="font-primaryRegular">
-                EMPOWERING
-              </span>{" "}
-              the true believers of decentralization.
+              <span className="font-primaryRegular">EMPOWERING</span> the true
+              believers of decentralization.
             </p>
             <p className="tracking-wide font-secondRegular">
               <span className="font-primaryRegular">BITCHY CLIVA</span> brings
@@ -69,9 +67,9 @@ export default function Hero() {
       </div>
 
       {/* Image and Button Section */}
-      <div className="flex flex-col-reverse gap-5 z-50 md:flex-row md:justify-between">
+      <div className="flex h-full flex-col-reverse gap-5 z-50 md:flex-row md:justify-between">
         <div className=" md:hidden flex flex-col-reverse justify-center items-center z-10">
-          <div className="sm:max-md:flex sm:max-md:flex-col gap-3 my-12">
+          <div className="sm:flex sm:flex-col gap-3 my-12">
             <div
               className="md:absolute md:max-xl:-translate-y-20 md:translate-x-32 md:max-xl:h-96 md:max-xl:w-44 h-32 w-64"
               style={{
@@ -126,24 +124,26 @@ export default function Hero() {
               </div>
             </div>
           </div>
-          <div className="z-50 md:absolute sm:md:hidden">
+          <div className="z-50 md:hidden block ">
             <Cliva />
           </div>
         </div>
-        <div
-          className="w-96 h-96 z-50 md:flex hidden md:justify-center md:items-center"
-          style={{
-            backgroundImage: `url(${cloudBG})`,
-            backgroundSize: "contain",
-            backgroundRepeat: "no-repeat",
-            backgroundPosition: "center",
-          }}
-        >
-          <div className="absolute h-16 translate-x-3 z-50">
-            <Cliva className=""/>
+        <div className="z-50 w-full hidden md:block">
+          <div
+            className="w-[50vw] h-[50vh] z-50 md:flex hidden md:justify-center md:items-center"
+            style={{
+              backgroundImage: `url(${cloudBG})`,
+              backgroundSize: "contain",
+              backgroundRepeat: "no-repeat",
+              backgroundPosition: "center",
+            }}
+          >
+           <div className="absolute lg:-translate-y-8 md:-translate-y-7 translate-x-6 z-50">
+              <Cliva className="" />
+            </div>
           </div>
         </div>
-        <div className=" flex flex-col justify-center items-center">
+        <div className=" w-full flex flex-col justify-center items-center">
           <div
             className="flex justify-center items-end h-96 w-96 py-4 z-50"
             style={{
@@ -153,13 +153,13 @@ export default function Hero() {
               backgroundPosition: "center",
             }}
           >
-            <div className="absolute flex gap-6 md:gap-8 lg:gap-10 xl:gap-8">
+            <div className="absolute flex items-center gap-6 md:gap-4 lg:gap-6 xl:gap-8">
               <a href="">
-                <img src={XImg} alt="" className="w-6 md:w-8" />
+                <img src={XImg} alt="" className="w-5 md:w-5" />
               </a>
 
               <a href="">
-                <img src={Telegram} alt="" className="w-6 md:w-8" />
+                <img src={Telegram} alt="" className="w-10 md:w-10" />
               </a>
             </div>
           </div>
@@ -169,7 +169,7 @@ export default function Hero() {
           <img src={Cloud2} alt="Cloud2" />
         </div>
 
-        <div className="absolute xl:translate-y- lg:-translate-y- md:translate-y-48 hidden md:block">
+        <div className="absolute w-full md:bottom-[10vh] lg:bottom-[15vh] xl:bottom-[0vh] sm:hidden md:block">
           <img src={Cloud} alt="Cloud" />
         </div>
       </div>

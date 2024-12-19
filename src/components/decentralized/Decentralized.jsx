@@ -35,19 +35,19 @@ const Decentralized = () => {
           </div>
 
           {/* Content Box */}
-          <div className="flex md:justify-between justify-center items-center px-10 w-full">
+          <div className="flex md:justify-around justify-center items-center px-10 w-full">
             <div>
               <img
                 src={MainBox}
                 alt=""
-                className=" w-fit h-96 top-[30vh] mx-auto"
+                className=" w-full lg:h-[70vh] top-[30vh] mx-auto"
               />
             </div>
             <div className="md:block hidden">
               <img
                 src={ButterFly}
                 alt="Butterfly"
-                className="w-fit h-96 top-[30vh] mx-auto"
+                className="w-full md:h-[50vh] lg:h-[70vh] top-[30vh] mx-auto"
               />
             </div>
           </div>

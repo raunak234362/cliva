@@ -2,10 +2,13 @@ import BuVoting from "../../assets/rb_214.png"; // Replace with your butterfly i
 import clivavotinf from "../../assets/img_4442.png"; // Replace with your Join Cliva image path
 import cloud2 from "../../assets/cloud2.png";
 import Cliva from "../cliva/Cliva";
-
+import cloudBG from "../../assets/horizontalRod.png";
 const VoteToEarn = () => {
   return (
-    <div className="w-full">
+    <div className="w-full -z-0">
+      <div className="z-0">
+        <img src={cloudBG} alt="" className="w-full" />
+      </div>
       <div className="absolute  z-50">
         <img src={cloud2} alt="" className="" />
       </div>
@@ -36,14 +39,14 @@ const VoteToEarn = () => {
             </div>
           </div>
           <div className="z-50 w-full overflow-x-hidden">
-            <div className="md:absolute md:translate-x-48 -z-50 opacity-80 hidden md:block">
+            <div className="md:absolute right-0 -z-20 md:-bottom-[5vh] xl:-bottom-[30vh] hidden md:block">
               <img
                 src={BuVoting}
                 alt="voting"
-                className="object-contain h-48"
+                className="object-contain w-[20vw] md:w-[30vw] lg:[20vh] xl:w-[40vw] xl:h-[40vh]"
               />
             </div>
-            <div className="z-50 lg:pt-40 md:pt-">
+            <div className="z-50 lg:pt-40 ">
               <img
                 src={clivavotinf}
                 alt="Butterfly"
