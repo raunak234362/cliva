@@ -40,14 +40,14 @@ const Decentralized = () => {
               <img
                 src={MainBox}
                 alt=""
-                className=" w-full lg:h-[70vh] top-[30vh] mx-auto"
+                className=" w-full md:h-[60vh] lg:h-[70vh] top-[30vh] mx-auto"
               />
             </div>
             <div className="md:block hidden">
               <img
                 src={ButterFly}
                 alt="Butterfly"
-                className="w-full md:h-[50vh] lg:h-[70vh] top-[30vh] mx-auto"
+                className="w-full md:h-[60vh] lg:h-[70vh] top-[30vh] mx-auto"
               />
             </div>
           </div>

@@ -7,7 +7,7 @@ const Wingoarena = () => {
     <div className="bg-[#FFD28A] h-full w-[100vw] relative ">
       {/*website view */}
       <div className="hidden md:block">
-        <div className="absolute top-8 right-0 ">
+        <div className="absolute top-8 right-0 md: flex md:justify-center md:items-center">
           <img src={Logo} alt="logo" className="w-[70%] " />
         </div>
         <div
