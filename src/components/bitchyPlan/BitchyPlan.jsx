@@ -43,28 +43,31 @@ const BitchyPlan = () => {
           />
         </div>
 
-        {/*------------------------------------first flight---------------------------- */}
-        <div className="relative">
-          <img
-            src={GreenShape}
-            alt=""
-            className=" w-[55%]  "
-            style={{ marginTop: "5%" }}
-          />
-          <div
-            className="text-[#EBE235] font-primaryRegular absolute top-6 left-10 lg:left-16 lg:top-10 text-center  uppercase font-bold "
-            style={{ WebkitTextStroke: "1px #F39734" }}
-          >
-            first flight
-          </div>
+      {/*------------------------------------first flight---------------------------- */}
+      <div className="relative">
+        <img
+          src={GreenShape}
+          alt=""
+          className=" w-[55%]  "
+          style={{ marginTop: "5%" }}
+        />
+        <div
+          className="text-[#EBE235] font-primaryRegular absolute top-6 left-10 lg:left-16 lg:top-10 text-center  uppercase font-bold 
+          xl:text-xl xl:ml-8"
+          style={{ WebkitTextStroke: "1px #F39734" }}
+        >
+          first flight
+        </div>
 
-          <div className=" absolute top-14 left-8  lg:top-24 lg:left-12 lg:text-xl font-secondRegular text-[#97E996]">
-            <p>Website launch</p>
-            <p>Community building</p>
-            <p>Worldwide marketing campaigns</p>
-            <p>Presale takeoff</p>
-            <p>Creation of token contracts</p>
-          </div>
+        <div
+          className=" absolute top-14 left-8  lg:top-24 lg:left-12 lg:text-xl font-secondRegular text-[#97E996]"
+        >
+          <p>Website launch</p>
+          <p>Community building</p>
+          <p>Worldwide marketing campaigns</p>
+          <p>Presale takeoff</p>
+          <p>Creation of token contracts</p>
+        </div>
 
           <div className=" flex justify-end absolute -top-24 lg:-top-44 lg:right-5 right-0">
             <img src={Earth} alt="" className=" w-[40%] z-100" />
@@ -85,26 +88,28 @@ const BitchyPlan = () => {
             <img src={BlueShape01} alt="" className=" w-[55%] " />
           </div>
 
-          <div
-            className="text-[#EBE235] text-wrap w-[48%] xl:w-[40%] leading-8 font-primaryRegular absolute top-6 -right-5  
+        <div
+          className="text-[#EBE235] text-wrap w-[48%] xl:w-[40%] leading-8 font-primaryRegular absolute top-6 -right-5  
           uppercase  font-bold lg:top-10 lg:-right-8"
-            style={{
-              WebkitTextStroke: "1px #F39734",
-            }}
-          >
-            Pollination:
-            <p>Expanding the horizon</p>
-          </div>
-
-          <div className=" absolute top-24 right-14 font-secondRegular text-white lg:top-32 lg:right-20 lg:text-lg">
-            <p> Audits and public disclosure of smart contract</p>
-            <p>Marketing using influential voices</p>
-            <p>Community building campaigns</p>
-          </div>
-          <div className=" absolute top-10">
-            <img src={Branch} alt="" className=" w-[40%] " />
-          </div>
+          style={{
+            WebkitTextStroke: "1px #F39734",
+          }}
+        >
+          Pollination: 
+          <p>Expanding the horizon</p>
         </div>
+
+        <div
+          className=" absolute top-24 right-14 font-secondRegular text-white lg:top-32 lg:right-20 lg:text-lg"
+        >
+          <p> Audits and public disclosure of smart contract</p>
+          <p>Marketing using influential voices</p>
+          <p>Community building campaigns</p>
+        </div>
+        <div className=" absolute top-10">
+          <img src={Branch} alt="" className=" w-[40%] " />
+        </div>
+      </div>
 
         {/*----------------------------catterpillar-------------------------------------- */}
 
@@ -113,27 +118,29 @@ const BitchyPlan = () => {
             <img src={PinkShape} alt="" className=" w-[70%] " />
           </div>
 
-          <div
-            className="text-[#EBE235] font-primaryRegular leading-8 left-48 absolute top-6 uppercase  font-bold
+        <div
+          className="text-[#EBE235] font-primaryRegular leading-8 left-48 absolute top-6 uppercase  font-bold
           lg:left-80 xl:left-96 "
-            style={{
-              WebkitTextStroke: "1px #F39734",
-            }}
-          >
-            <p>Swarming: </p>
-            <p>Massive communal efforts</p>
-          </div>
+          style={{
+            WebkitTextStroke: "1px #F39734",
+          }}
+        >
+          <p>Swarming: </p>
+          <p>Massive communal efforts</p>
+        </div>
 
-          <div
-            className=" absolute top-24 left-44 font-secondRegular text-[#F33B19]
+        <div
+          className=" absolute top-24 left-44 font-secondRegular text-[#F33B19]
           lg:left-80 xl:left-96 lg:text-lg lg:top-32"
-          >
-            <p>Vote-to-earn platform development</p>
-            <p>Vote to Earn Mechanism:</p>
-            <p>Web3 crowdsourcing + gig economy + volunteering platform</p>
-            <p>development DEX listings</p>
-            <p>Social cause drive & funding; driving real-life social impact</p>
-          </div>
+        >
+          <p>Vote-to-earn platform development</p>
+          <p>Vote to Earn Mechanism:</p>
+          <p>
+            Web3 crowdsourcing + gig economy + volunteering platform 
+          </p>
+          <p>development DEX listings</p>
+          <p>Social cause drive & funding; driving real-life social impact</p>
+        </div>
 
           <div
             className=" absolute top-0 right-0 flex justify-end"
@@ -162,7 +169,7 @@ const BitchyPlan = () => {
         <div className="md:hidden block relative">
           <img src={GreenShapeMd} alt="" />
           <div
-            className="text-[#EBE235] font-primaryRegular absolute top-6 left-0 text-center text-[1.3rem] uppercase font-bold mt-8"
+            className="text-[#EBE235] font-primaryRegular absolute top-6 left-0 text-center text-lg uppercase font-bold mt-8"
             style={{ marginLeft: "5%", WebkitTextStroke: "1px #F39734" }}
           >
             first flight
@@ -183,20 +190,21 @@ const BitchyPlan = () => {
         </div>
         {/*--------------------Mobile: pollination--------------------------- */}
         <div className="relative md:hidden block " style={{ marginTop: "60%" }}>
-          <img src={BlueShapeMd} alt="" />
+          <img src={BlueShapeMd} alt="" className="w-full max-sm:h-[280px]"/>
           <div
-            className="text-[#EBE235] font-primaryRegular absolute top-5 uppercase font-bold mt-5"
+            className="text-[#EBE235] font-primaryRegular leading-8 absolute top-3 text-lg uppercase font-bold mt-5"
             style={{
               marginLeft: "10%",
               WebkitTextStroke: "1px #F39734",
-              lineHeight: "2",
             }}
           >
             <p>Pollination: </p>
             <p>Expanding the horizon</p>
           </div>
 
-          <div className=" absolute top-32 left-5 leading-8 font-secondRegular text-white">
+          <div
+            className=" absolute top-32 left-5 leading-8 font-secondRegular text-white"
+          >
             <p> Audits and public disclosure of smart contract</p>
             <p>Marketing using influential voices</p>
             <p>Community building campaigns</p>
@@ -211,7 +219,7 @@ const BitchyPlan = () => {
           className=" relative md:hidden block"
           style={{ marginTop: "-30%" }}
         >
-          <img src={PinkShapeMd} alt="" />
+          <img src={PinkShapeMd} alt="" className="w-full max-sm:h-[360px]"/>
           <div
             className="text-[#EBE235] font-primaryRegular absolute top-10 left-8 uppercase text-[1.1rem] font-bold mt-4 "
             style={{
@@ -224,8 +232,7 @@ const BitchyPlan = () => {
           </div>
 
           <div
-            className=" absolute bottom-0 font-secondRegular text-[#F33B19]"
-            style={{ marginBottom: "20%", marginLeft: "8%", lineHeight: "2" }}
+            className=" absolute bottom-14 leading-6 left-8 font-secondRegular text-[#F33B19]"
           >
             <p>Vote-to-earn platform development</p>
             <p>Vote to Earn Mechanism:</p>
