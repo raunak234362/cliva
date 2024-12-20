@@ -127,6 +127,11 @@ export default function Hero() {
           <div className="z-50 md:hidden block ">
             <Cliva />
           </div>
+
+          <div className="block lg:hidden md:hidden xl:hidden">
+          <img src={Cloud} alt="Cloud1" />
+          <img src={Cloud2} alt="Cloud2" />
+        </div>
         </div>
         <div className="z-50 w-full hidden md:block">
           <div
@@ -164,12 +169,9 @@ export default function Hero() {
             </div>
           </div>
         </div>
-        <div className="block lg:hidden md:hidden xl:hidden">
-          <img src={Cloud} alt="Cloud1" />
-          <img src={Cloud2} alt="Cloud2" />
-        </div>
 
-        <div className="absolute object-bottom w-full sm:hidden md:block md:bottom-0 ">
+        
+        <div className="absolute object-bottom w-full hidden md:block md:bottom-0 ">
           <img src={Cloud} alt="Cloud" />
         </div>
       </div>
