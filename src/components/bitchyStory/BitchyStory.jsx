@@ -37,7 +37,7 @@ const BitchyStory = () => {
         <div className="absolute top-0 md:mt-20 md:ml-[70%] ">
           <img src={Logo} alt="" className=" w-[80%]" />
         </div>
-        <div className="absolute z-50 md:bottom-[26%] lg:bottom-[26%] xl:bottom-[36%] md:left-[10%] lg:left-[8%] xl:left-[23%]">
+        <div className="absolute z-50 md:bottom-[26%] lg:bottom-[24%] xl:bottom-[33%] md:left-[10%] lg:left-[9%] xl:left-[22%]">
           <img
             src={BitchyInsect}
             alt=""
@@ -45,7 +45,7 @@ const BitchyStory = () => {
           />
         </div>
         <div
-          className="absolute z-50 h-12 md:bottom-[30%] lg:bottom:[45%] xl:bottom-[40%] md:left-[20%] lg:left[30%] xl:left-[30%]"
+          className="absolute z-50 h-12 md:bottom-[30%] lg:bottom:[45%] xl:bottom-[38%] md:left-[20%] lg:left[30%] xl:left-[30%]"
         >
           <Cliva />
         </div>
