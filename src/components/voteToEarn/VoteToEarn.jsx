@@ -39,7 +39,7 @@ const VoteToEarn = () => {
             </div>
           </div>
           <div className="z-50 w-full overflow-x-hidden">
-            <div className="md:absolute right-0 -z-20 sm:-bottom-[5vh] md:-bottom-[15vh] lg:-bottom-[25vh] xl:-bottom-[30vh] 2xl:-bottom-[40vh] hidden md:block">
+            <div className="md:absolute right-0 -z-20 sm:-bottom-[5vh] md:-bottom-[15vh] lg:-bottom-[25vh] xl:-bottom-[30vh] 2xl:-bottom-[40vh] hidden">
               <img
                 src={BuVoting}
                 alt="voting"
