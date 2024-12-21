@@ -5,7 +5,7 @@ const MiddleBox = () => {
   return (
     <div className="relative">
       <div className="w-full flex flex-row max-sm:flex-col-reverse items-center">
-        <div className="w-3/4 flex justify-start">
+        <div className="max-sm:w-full w-3/4 flex justify-start">
           <img
             src={Branch}
             alt=""
@@ -13,7 +13,7 @@ const MiddleBox = () => {
           />
         </div>
         <div className="w-full">
-          <div className="w-3/4">
+          <div className="max-sm:w-full w-3/4">
             <BlueBox />
           </div>
         </div>
