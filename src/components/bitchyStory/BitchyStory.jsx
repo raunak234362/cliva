@@ -125,7 +125,7 @@ const BitchyStory = () => {
           className=" absolute top-0 z-10"
           style={{ marginTop: "40%", marginLeft: "55%" }}
         >
-          <img src={BitchyInsect} alt="" className=" w-[90%]" />
+          <img src={BitchyInsect} alt="" className=" max-sm:w-[80%]" />
         </div>
 
         <div className=" absolute top-0 ">
@@ -139,12 +139,11 @@ const BitchyStory = () => {
             </p>
           </div>
           <div className=" absolute top-0 text-white font-secondRegular text-sm capitalize mt-20 ml-5">
-            <p>...Until she flew deeper into the Forest. </p>
-            <p>shattered by the view of Disparity,</p>
-            <p> Exclusion, Greed, and Corruption. So on.</p>
-            <p>Selfishness Reigned, and Flowers </p>
-            <p>Drooped from the Weight of</p>
-            <p> Indifference. </p>
+            <div className="w-3/4 text-wrap">
+              ...Until she flew deeper into the Forest. shattered by the view of
+              Disparity, Exclusion, Greed, and Corruption. So on. Selfishness
+              Reigned, and Flowers Drooped from the Weight of Indifference.
+            </div>
           </div>
         </div>
 
@@ -163,8 +162,8 @@ const BitchyStory = () => {
               </div>
             </div>
 
-            <div className="text-[#FF0A0A] max-sm:text-base max-sm:leading- w-full flex justify-end pt-4 capitalize leading-6">
-              <div className="w-11/12 ">
+            <div className="text-[#FF0A0A] max-sm:text-base w-full flex justify-end pt-4 capitalize leading-6">
+              <div className=" ">
                 Cliva has to become bitchy Cliva to guide the promised gains to
                 the world from decentralisation tech. True change could come
                 without a system, without a structure where all voices could be
