@@ -34,7 +34,7 @@ const BitchyStory = () => {
         <div className="bg-img">
           <img src={BitchyBg} alt="" />
         </div>
-        <div className="absolute top-0 md:mt-20 md:ml-[70%] ">
+        <div className="absolute top-5 md:mt-20 md:ml-[70%] ">
           <img src={Logo} alt="" className=" w-[80%]" />
         </div>
         <div className="absolute z-50 bottom-0 left-0 md:mb-36 md:ml-24 lg:ml-30 lg:ml-48 lg:mb-44 xl:mb-64">
@@ -52,15 +52,26 @@ const BitchyStory = () => {
           <img
             src={BlueShape}
             alt=""
-            className=" w-[60%] absolute top-0 md:mt-32 lg:mt-44"
+            className=" w-[60%] absolute top-5 md:mt-32 lg:mt-44"
           />
-          <div
-            className="text-wrap text-clip w-[40%] absolute top-0 text-white font-secondRegular text-sm 
-        md:mt-36 md:ml-2 lg:mt-52 lg:ml-6 lg:text-lg lg:leading-8 leading-8 xl:text-2xl xl:mt-60 xl:leading-10 "
-          >
-            ...Until she flew deeper into the forest. Shattered by the view of
-            disparity, exclusion, greed, and corruption. so on. Selfishness
-            reigned, and flowers drooped from the weight of indifference.
+          <div className=" absolute top-0 xl:top-0 left-3 md:left-5 font-secondRegular text-left md:mt-40 lg:mt-56 lg:mr-2 lg:leading-8">
+            <div
+              className=" font-primaryRegular w-full flex justify-start uppercase text-white"
+              style={{ WebkitTextStroke: "1px #228EFD" }}
+            >
+              <div className=" md:text-[10px] lg:text-[13px] xl:text-[16px]">
+                NEW ARENA IS AT THE FRONTIER
+              </div>
+            </div>
+
+            <div className="text-white text-wrap w-full flex justify-start md:text-sm absolute lg:leading-6 right-2 lg:mt-5">
+              <div className="w-11/12 md:w-11/12 lg:w-11/12 xl:w-11/12 2xl:w-full md:text-[12px] lg:text-[14px] xl:text-[18px] leading-6 lg:leading-6 xl:leading-8">
+                ...Until she flew deeper into the forest. Shattered by the view
+                of disparity, exclusion, greed, and corruption. so on.
+                Selfishness reigned, and flowers drooped from the weight of
+                indifference. 
+              </div>
+            </div>
           </div>
         </div>
 
@@ -68,28 +79,29 @@ const BitchyStory = () => {
           <img
             src={YellowShape}
             alt=""
-            className=" w-[70%] h-[40%] absolute top-0 right-0 md:mt-44 lg:mt-56"
+            className=" w-[70%] h-[40%] absolute top-0 xl:top-6 right-0 md:mt-44 lg:mt-56"
           />
-          <div className=" absolute top-0 right-3 md:right-5  font-secondRegular text-right md:mt-48 lg:mt-64 lg:mr-2 lg:leading-8">
+          <div className=" absolute top-0 xl:top-5 right-3 md:right-5  font-secondRegular text-right md:mt-48 lg:mt-64 lg:mr-2 lg:leading-8">
             <div
-              className=" font-primaryRegular uppercase text-sm text-white xl:text-xl"
+              className=" font-primaryRegular w-full flex justify-end uppercase text-white"
               style={{ WebkitTextStroke: "1px #228EFD" }}
             >
-              <p>NO LONGER SHE WILL </p>
-              <p>BE A PASSIVE OBSERVER </p>
+              <div className="w-11/12 md:w-9/12 lg:w-9/12 xl:w-11/12 md:text-[13px] lg:text-[13px] xl:text-[16px]">
+                NO LONGER SHE WILL BE A PASSIVE OBSERVER
+              </div>
             </div>
 
-            <div
-              className="text-[#FF0A0A] text-wrap w-[120%] lg:w-[150%] md:text-sm absolute lg:leading-6 right-2 lg:mt-5 lg:text-lg
-                 xl:text-2xl"
-            >
-              Cliva has to become bitchy Cliva to guide the promised gains to
-              the world from decentralisation tech. True change could come
-              without a system, without a structure where all voices could be
-              heard. So, Cliva set to work to build a network, a governance, one
-              where the suffering, the poor, and the innocent would have a
-              place. Where no one would be ignored. Where greed would be
-              replaced by generosity where cruelty would give way to compassion
+            <div className="text-[#FF0A0A] text-wrap w-full flex justify-end md:text-sm absolute lg:leading-6 right-2 lg:mt-5">
+              <div className="w-11/12 md:w-8/12 lg:w-10/12 xl:w-11/12 2xl:w-full md:text-[12px] lg:text-[14px] xl:text-[22px] lg:leading-6 xl:leading-8">
+                Cliva has to become bitchy Cliva to guide the promised gains to
+                the world from decentralisation tech. True change could come
+                without a system, without a structure where all voices could be
+                heard. So, Cliva set to work to build a network, a governance,
+                one where the suffering, the poor, and the innocent would have a
+                place. Where no one would be ignored. Where greed would be
+                replaced by generosity where cruelty would give way to
+                compassion
+              </div>
             </div>
           </div>
         </div>

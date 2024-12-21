@@ -10,7 +10,7 @@ const BlueBox = () => {
       />
       {/* Content */}
       <div
-        className="bg-[#252B7C] text-white p-8 relative"
+        className="bg-[#252B7C] text-white p-8 relative sm:h-72"
         style={{
           clipPath: "polygon(5% 2%, 99% 2%, 95% 98%, 1% 98%)",
           margin: "4px", // Creates the border effect
@@ -22,8 +22,11 @@ const BlueBox = () => {
         >
           POLLINATION : EXPANDING THE HORIZON
         </div>
-        <div className=" text-wrap text-lg text-clip max-w-[80%] font-secondRegular leading-8">
-        Audits and public disclosure of smart contract Marketing using influential voices Community building campaigns
+        <div className=" text-wrap text-clip flex justify-end  font-secondRegular">
+          <div className="flex md:w-full lg:w-11/12 text-sm md:text-lg lg:text-lg xl:text-xl md:leading-6 lg:leading-7 xl:leading-10">
+            Audits and public disclosure of smart contract Marketing using
+            influential voices Community building campaigns
+          </div>
         </div>
       </div>
     </div>

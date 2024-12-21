@@ -1,3 +1,4 @@
+
 const GreenBox = () => {
   return (
     <div className="relative">
@@ -11,7 +12,7 @@ const GreenBox = () => {
 
       {/* Content */}
       <div
-        className="bg-[#173E0E] text-white p-6 relative"
+        className="bg-[#173E0E] text-white p-6 relative sm:h-60"
         style={{
           clipPath: "polygon(0 0, 100% 0, 70% 100%, 0% 100%)",
           margin: "10px", // This creates the border effect
@@ -23,10 +24,11 @@ const GreenBox = () => {
         >
           FIRST FLIGHT
         </div>
-        <div className=" text-wrap text-clip max-w-[80%] font-secondRegular leading-8">
+        <div className="md:mt-5 text-wrap text-clip max-w-[80%] font-secondRegular leading-8 md:text-lg">
           Website launch Community building Worldwide marketing campaigns
           Presale takeoff Creation of token contracts
         </div>
+      
       </div>
     </div>
   );
