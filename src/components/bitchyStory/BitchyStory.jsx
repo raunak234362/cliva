@@ -37,13 +37,13 @@ const BitchyStory = () => {
         <div className="absolute top-5 md:mt-20 md:ml-[70%] ">
           <img src={Logo} alt="" className=" w-[80%]" />
         </div>
-        <div className="absolute z-50 bottom-0 left-0 md:mb-36 md:ml-24 lg:ml-48 lg:mb-44 xl:mb-72 2xl:mb-96 2xl:ml-72">
+        <div className="absolute z-50 bottom-0 left-0 md:mb-36 md:ml-24 lg:ml-48 lg:mb-48 xl:mb-72 2xl:mb-96 2xl:ml-72">
           <img
             src={BitchyInsect}
             alt=""
-            className="w-[20%] md:w-[20%] lg:w-[20%] xl:w-[20%] 2xl:w-[30%] "
+            className="w-[20%] md:w-[20%] lg:w-[15%] xl:w-[20%] 2xl:w-[30%] "
           />
-          <div className="absolute bottom-0 left-0 z-50 md:mb-6 md:ml-28 lg:mb-10 2xl:mb-24 2xl:ml-44">
+          <div className="absolute bottom-0 left-0 z-50 md:mb-6 md:ml-24 lg:mb-5 2xl:mb-24 2xl:ml-44">
             <Cliva />
           </div>
         </div>

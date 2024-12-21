@@ -27,7 +27,7 @@ const PinkBox = () => {
             SWARMING: MASSIVE COMMUNAL EFFORTS
           </div>
         </div>
-          <div className=" text-wrap text-[#F33B19] flex w-full xl:px-16 lg:px-20 justify-center text-left text-clip text-lg font-secondRegular leading-8">
+          <div className=" text-wrap text-[#F33B19] flex w-full xl:px-10 lg:px-10 justify-center text-left text-clip text-lg font-secondRegular leading-8">
             Vote-to-earn platform development<br/> Vote to Earn Mechanism:<br/> Web3
             crowdsourcing + gig economy + volunteering platform development<br/> DEX
             listings<br/> Social cause drive & funding; driving real-life social
