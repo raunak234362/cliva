@@ -30,7 +30,7 @@ const BitchyPlan1 = () => {
         </div>
           <TopBox />
           <MiddleBox />
-          <div className="w-full md:px-32">
+          <div className="w-full md:px-32 lg:px-36 xl:px-80">
             <PinkBox />
           </div>
         </div>

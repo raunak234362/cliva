@@ -11,7 +11,7 @@ export default function WingoArena1() {
 
     useEffect(() => {
         const handleResize = () => {
-            if (window.innerWidth <= 768) {
+            if (window.innerWidth <= 750) {
                 setMobileView(true);
             } else {
                 setMobileView(false);
@@ -31,12 +31,12 @@ export default function WingoArena1() {
       <div className="bg-[#FFD28A] h-full w-full relative ">
         <div
           className="w-full flex flex-col max-sm:bg-none sm:flex-row items-center sm:pr-10"
-          // style={{
-          //   backgroundImage: mobileView ? "" :`url(${StreetSVG})`,
-          //   backgroundSize: "cover",
-          //   backgroundRepeat: "no-repeat",
-          //   backgroundPosition: "center",
-          // }}
+          style={{
+            backgroundImage: mobileView ? "" :`url(${ButterflyCastle})`,
+            backgroundSize: "cover",
+            backgroundRepeat: "no-repeat",
+            backgroundPosition: "center",
+          }}
         >
           <div className="sm:hidden flex flex-col items-center gap-4">
             <img src={Logo} alt="Logo" className="w-1/2 pt-16" />
@@ -52,13 +52,13 @@ export default function WingoArena1() {
           </div>
 
           <div className="sm:w-full">
-            {/* <img src={ButterflyMobile} alt="Logo" className="w-full h-full" /> */}
-            <img src={mobileView ? ButterflyMobile : ButterflyCastle} alt="Logo" className="w-full h-full" />
+            <img src={ButterflyMobile} alt="Logo" className="w-full h-full" />
+            {/* <img src={mobileView ? ButterflyMobile : ButterflyCastle} alt="Logo" className="w-full h-full" /> */}
           </div>
 
           <div className="sm:w-1/2 w-full flex flex-col items-center gap-20">
             <div className="max-sm:hidden flex justify-center">
-              <img src={Logo} alt="Logo" className="w-1/2" />
+              <img src={Logo} alt="Logo" className=" md:w-3/4" />
             </div>
             <div className="w-11/12">
                 <Info />
