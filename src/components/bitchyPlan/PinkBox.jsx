@@ -4,7 +4,7 @@ const PinkBox = () => {
   return (
     <div className="relative">
       {/* Border wrapper */}
-      <img src={Catterpillar} alt="" className="max-md:hidden absolute z-20 right-0 2xl:-top-20 2xl:w-[12%] xl:w-[15%] xl:-top-16 lg:w-[20%] lg:-right-16 lg:-top-10 md:w-[35%] md:-top-8 md:-right-20 pr-10 mr-10" />
+      <img src={Catterpillar} alt="" className="max-md:hidden absolute z-20 right-0 2xl:-top-20 2xl:w-[12%] xl:w-[20%] xl:-top-10 lg:w-[25%] lg:-right-24 lg:-top-10 md:w-[35%] md:-top-8 md:-right-20 pr-10 mr-10" />
       <div
         className="absolute inset-0 bg-[#EE0A73]"
         style={{
@@ -28,9 +28,9 @@ const PinkBox = () => {
           </div>
         </div>
           <div className=" text-wrap text-[#F33B19] flex w-full xl:px-16 lg:px-20 justify-center text-left text-clip text-lg font-secondRegular leading-8">
-            Vote-to-earn platform development Vote to Earn Mechanism: Web3
-            crowdsourcing + gig economy + volunteering platform development DEX
-            listings Social cause drive & funding; driving real-life social
+            Vote-to-earn platform development<br/> Vote to Earn Mechanism:<br/> Web3
+            crowdsourcing + gig economy + volunteering platform development<br/> DEX
+            listings<br/> Social cause drive & funding; driving real-life social
             impact
           </div>
       </div>
