@@ -1,5 +1,5 @@
-import BitchyPlan1 from "../bitchyPlan/BitchyPlan1";
-import BitchyStory1 from "../bitchyStory/BitchyStory1";
+import BitchyPlan from "../bitchyPlan/BitchyPlan";
+import BitchyStory from "../bitchyStory/BitchyStory";
 import { Decentralized, Hero, VoteToEarn, Wingonomics, WingoArena1 } from "../index";
 
 
@@ -10,8 +10,8 @@ const Layout = () => {
       <VoteToEarn />
       <Decentralized/>
       <WingoArena1/>
-      <BitchyStory1/>
-      <BitchyPlan1/>
+      <BitchyStory/>
+      <BitchyPlan/>
       <Wingonomics/>
     </div>
   );

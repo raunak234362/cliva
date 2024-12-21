@@ -28,12 +28,12 @@ const BitchyStory1 = () => {
           }}
         >
           <div className="w-full flex flex-row ">
-            <div className="w-1/4 overflow-visible">
+              <div className="md:w-2/5">
               <BlueBox />
-            </div>
-            <div className="w-2/4">
+              </div>
+            {/* <div className="w-2/4">
               <YellowBox />
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

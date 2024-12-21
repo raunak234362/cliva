@@ -1,28 +1,27 @@
-
+import BlueShapeHead from "../../assets/BlueShapeHead.png";
 
 export const BlueBox = () => {
   return (
-    <div className="relative">
-      {/* Border wrapper */}
+    <div>
       <div
-        className="absolute inset-0 bg-[#228EFD]"
+        className="w-full h-1/2 items-center flex flex-col"
         style={{
-          clipPath: "polygon(0 0, 100% 0, 70% 100%, 0 100%)",
-        }}
-      />
-
-      {/* Content */}
-      <div
-        className="bg-[#252B7C] text-white p-6 relative"
-        style={{
-          clipPath: "polygon(0 0, 100% 0, 70% 100%, 0% 100%)",
-          margin: "8px", // This creates the border effect
+          backgroundImage: `url(${BlueShapeHead})`,
+          backgroundSize: "contain",
+          backgroundRepeat: "no-repeat",
+          backgroundPosition: "center",
         }}
       >
-        <div className="font-secondRegular max-w-xl space-y-4 pr-20">
-          ...Until She Flew Deeper Into The Forest. Shattered By The View Of
-          Disparity, Exclusion, Greed, And Corruption. So On. Selfishness
-          Reigned, And Flowers Drooped From The Weight Of Indifference.
+        <div className="sm:w-3/5 items-center flex flex-col gap-4 m-5">
+        <div
+          className="text-white text-wrap text-clip font-primaryRegular leading-8 uppercase"
+          style={{ WebkitTextStroke: "1px #228EFD" }}
+        >
+          She was a delicate & innocent butterfly
+        </div>
+        <div className="text-white text-wrap text-clip  font-secondRegular leading-8">
+        ...Until she flew deeper into the forest. Shattered by the view of disparity, exclusion, greed, and corruption. so on. Selfishness reigned, and flowers drooped from the weight of indifference. 
+        </div>
         </div>
       </div>
     </div>
