@@ -43,7 +43,7 @@ const BitchyStory = () => {
             alt=""
             className="w-[20%] md:w-[20%] lg:w-[15%] xl:w-[20%] 2xl:w-[30%] "
           />
-          <div className="absolute bottom-0 left-0 z-50 md:mb-6 md:ml-24 lg:mb-5 2xl:mb-24 2xl:ml-44">
+          <div className="absolute bottom-0 left-0 z-50 md:mb-6 md:ml-28 lg:mb-5 2xl:mb-24 2xl:ml-44">
             <Cliva />
           </div>
         </div>
