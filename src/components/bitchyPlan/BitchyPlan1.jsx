@@ -1,6 +1,6 @@
 import Header from "./Header";
 import LeaveBg from "../../assets/leave_bg.png";
-
+import Grass from "../../assets/grass.png";
 import TopBox from "./TopBox";
 import MiddleBox from "./MiddleBox";
 import PinkBox from "./PinkBox";
@@ -23,7 +23,11 @@ const BitchyPlan1 = () => {
           <Header /> {/* Header Component */}
         </div>
 
+
         <div className="w-full flex flex-col gap-0">
+        <div className="md:hidden">
+          <img src={Grass} alt="" />
+        </div>
           <TopBox />
           <MiddleBox />
           <div className="w-full md:px-32">

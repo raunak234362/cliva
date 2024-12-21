@@ -1,3 +1,4 @@
+import RightFlower from "../../assets/flower_right.png";
 
 const GreenBox = () => {
   return (
@@ -28,8 +29,12 @@ const GreenBox = () => {
           Website launch Community building Worldwide marketing campaigns
           Presale takeoff Creation of token contracts
         </div>
-      
       </div>
+      <img
+        src={RightFlower}
+        alt=""
+        className="max-sm:hidden absolute right-0 top-1/2 transform -translate-y-[38%] max-lg:translate-x-[45%] lg:translate-x-[20%] xl:translate-x-[20%] max-md:-rotate-[10deg] max-lg:-rotate-[10deg] lg:-rotate-[6deg] xl:rotate-[10deg] 2xl:rotate-[17deg] mt-4 lg:w-1/3 w-2/3"
+      />
     </div>
   );
 };

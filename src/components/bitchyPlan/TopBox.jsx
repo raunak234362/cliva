@@ -1,15 +1,12 @@
 import GreenBox from "./GreenBox";
 import Earth from "../../assets/earth.png";
-import RightFlower from "../../assets/flower_right.png";
 const TopBox = () => {
   return (
     <div className="relative">
       <div className="flex flex-row max-sm:flex-col items-center">
-        <div className="w-full">
+        <div className="w-full ">
           <GreenBox />
-          <div className="w-full flex justify-end ">
-            <img src={RightFlower} alt="" className="max-sm:hidden absolute top-20 left-[33%] w-96"/>
-          </div>
+            {/* <img src={RightFlower} alt="" className="max-sm:hidden absolute top-20 left-[33%] w-96"/> */}
         </div>
         <div className="w-full flex justify-center">
           <img
