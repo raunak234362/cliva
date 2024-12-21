@@ -37,13 +37,13 @@ const BitchyStory = () => {
         <div className="absolute top-5 md:mt-20 md:ml-[70%] ">
           <img src={Logo} alt="" className=" w-[80%]" />
         </div>
-        <div className="absolute z-50 bottom-0 left-0 md:mb-36 md:ml-24 lg:ml-30 lg:ml-48 lg:mb-44 xl:mb-64">
+        <div className="absolute z-50 bottom-0 left-0 md:mb-36 md:ml-24 lg:ml-48 lg:mb-44 xl:mb-72 2xl:mb-96 2xl:ml-72">
           <img
             src={BitchyInsect}
             alt=""
-            className="w-[30%] md:w-[20%] lg:w-[20%] xl:w-[30%] "
+            className="w-[30%] md:w-[20%] lg:w-[20%] xl:w-[20%] 2xl:w-[30%] "
           />
-          <div className="absolute bottom-0 left-0 z-50 md:mb-6 md:ml-28 lg:mb-10 xl:mb-28 xl:ml-44">
+          <div className="absolute bottom-0 left-0 z-50 md:mb-6 md:ml-28 lg:mb-10 2xl:mb-24 2xl:ml-44">
             <Cliva />
           </div>
         </div>
@@ -112,7 +112,7 @@ const BitchyStory = () => {
             alt=""
             className=" w-[60%] absolute bottom-0 md:mb-6 "
           />
-          <div className=" absolute bottom-0 text-white  font-secondRegular text-center">
+          <div className=" absolute bottom-0 lg:bottom-5 text-white  font-secondRegular text-center">
             <p
               className=" font-primaryRegular md:text-[12px]  uppercase xl:text-xl "
               style={{ WebkitTextStroke: "1px #228EFD" }}
