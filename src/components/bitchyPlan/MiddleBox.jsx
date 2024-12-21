@@ -12,8 +12,8 @@ const MiddleBox = () => {
             className="object-cover max-sm:w-full w-3/4"
           />
         </div>
-        <div className="w-full">
-          <div className="max-sm:w-full w-3/4">
+        <div className="w-full flex justify-end">
+          <div className="max-sm:w-full  w-3/4">
             <BlueBox />
           </div>
         </div>
